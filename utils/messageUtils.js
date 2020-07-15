@@ -29,7 +29,7 @@ module.exports = {
 				message.channel.send(randomEmbeded());
 			}
 			catch {
-				message.channel.send('No one appeared');
+				message.channel.send('```No one appeared```');
 			}
 
 		}
@@ -38,7 +38,7 @@ module.exports = {
 				message.channel.send(infoEmbeded(message.content));
 			}
 			catch (error) {
-				message.channel.send('Info not available');
+				message.channel.send('```Info not available```');
 			}
 		}
 		else if(message.content == 'p!help') {

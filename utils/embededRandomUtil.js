@@ -14,7 +14,7 @@ module.exports = {
 		const personaEmbeded = new Discord.MessageEmbed()
 			.setColor('#0099ff')
 			.setTitle(persona)
-			.setDescription('wants to talk to you')
+			.setDescription('is now in the server.')
 			.addFields(
 				{ name: 'Level:', value: metadata.level, inline: true },
 				{ name: 'Arcana', value: metadata.arcana, inline: true },

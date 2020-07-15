@@ -14,6 +14,17 @@ module.exports = {
 
 		const metadata = personas[persona];
 
+		let skills = '';
+		for(const skill in metadata.skills) {
+			skills += skill + ', ';
+		}
+
+		skills = skills.substring(0, skills.length - 2);
+
+		if (skills == null) {
+			skills = 'No skills';
+		}
+
 		const personaEmbeded = new Discord.MessageEmbed()
 			.setColor('#0099ff')
 			.setTitle(persona)
@@ -27,6 +38,7 @@ module.exports = {
 				{ name: 'Inherits:', value: metadata.inherits, inline: true },
 				{ name: 'Item:', value: metadata.item, inline: true },
 				{ name: 'ItemR', value: metadata.itemr, inline: true },
+				{ name: 'Skills:', value: skills, inline: true },
 			)
 			.setImage('https://storage.googleapis.com/persona-discord-bot/' + photoIndex + '.png')
 			.setTimestamp();
