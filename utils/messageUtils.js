@@ -2,8 +2,8 @@ require('../models/User');
 const mongoose = require('mongoose');
 const User = mongoose.model('users');
 const { randomEmbeded } = require('./embededRandomUtil');
-const { InfoEmbeded } = require('./InfoUtils');
-
+const { infoEmbeded } = require('./infoUtils');
+const { help } = require('../commands/help');
 
 module.exports = {
 	messageUtils : (message) => {
@@ -35,11 +35,14 @@ module.exports = {
 		}
 		else if(message.content.startsWith('p!info')) {
 			try {
-				message.channel.send(InfoEmbeded(message.content));
+				message.channel.send(infoEmbeded(message.content));
 			}
 			catch (error) {
 				message.channel.send('Info not available');
 			}
+		}
+		else if(message.content == 'p!help') {
+			message.channel.send(help());
 		}
 	},
 };

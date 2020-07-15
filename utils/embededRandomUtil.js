@@ -16,9 +16,9 @@ module.exports = {
 			.setTitle(persona)
 			.setDescription('wants to talk to you')
 			.addFields(
-				{ name: 'Level:', value: metadata.level },
-				{ name: 'Arcana', value: metadata.arcana },
-				{ name: 'Trait', value: metadata.trait },
+				{ name: 'Level:', value: metadata.level, inline: true },
+				{ name: 'Arcana', value: metadata.arcana, inline: true },
+				{ name: 'Trait', value: metadata.trait, inline: true },
 			)
 			.setImage('https://storage.googleapis.com/persona-discord-bot/' + photoIndex + '.png')
 			.setTimestamp();
