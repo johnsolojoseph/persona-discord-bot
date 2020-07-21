@@ -1,21 +1,4 @@
 {
-    "Abaddon": {
-        "inherits": "curse",
-        "item": "Megaton Raid Belt",
-        "itemr": "God's Hand Belt",
-        "level": 75,
-        "arcana": "Judgement",
-        "elems": ["ab", "ab", "-", "-", "-", "-", "-", "-", "rs", "ab"],
-        "skills": {
-            "Flash Bomb": 78,
-            "Ailment Boost": 79,
-            "Absorb Phys": 80,
-            "Gigantomachia": 81
-        },
-        "stats": [51, 42, 58, 38, 43],
-        "trait": "Spirit Focus",
-        "image_url" : ""
-    },
     "Agathion": {
         "inherits": "elec",
         "item": "Zio",
@@ -25,71 +8,13 @@
         "elems": ["-", "rs", "-", "-", "rs", "wk", "-", "-", "-", "-"],
         "skills": {"Lunge": 4, "Rakukaja": 6, "Zio": 7, "Dodge Elec": 8 },
         "stats": [3, 4, 5, 7, 3],
-        "trait": "Odd Immunity"
-    },
-    "Alice": {
-        "special": true,
-        "inherits": "curse",
-        "item": "Mamudoon Ring",
-        "itemr": "Demonic Decree Ring",
-        "level": 83,
-        "arcana": "Death",
-        "elems": ["-", "-", "-", "-", "-", "-", "rs", "rs", "wk", "rp"],
-        "skills": {
-            "Die For Me!": 85,
-            "Megidolaon": 86,
-            "Concentrate": 87,
-            "Survival Trick": 88
-        },
-        "stats": [45, 61, 49, 54, 47],
-        "trait": "Die Already!",
-        "max": true
-    },
-    "Alilat": {
-        "inherits": "ice",
-        "item": "Mabufudyne",
-        "itemr": "Diamond Dust",
-        "level": 81,
-        "arcana": "Empress",
-        "elems": ["rp", "rp", "wk", "ab", "-", "-", "nu", "-", "-", "wk"],
-        "skills": {
-            "Mabufudyne": 82,
-            "Concentrate": 83,
-            "Auto-Maraku": 85,
-            "Ice Amp": 86,
-            "Ice Age": 87
-        },
-        "stats": [45, 54, 57, 49, 45],
-        "trait": "Ice Lineage",
-        "note": "Only available after 1/12"
-    },
-    "Ame-no-Uzume": {
-        "inherits": "almighty",
-        "item": "Senryou Takusha",
-        "itemr": "Senryou Takusha R",
-        "level": 13,
-        "arcana": "Lovers",
-        "elems": ["-", "-", "ab", "-", "-", "-", "wk", "-", "-", "-"],
-        "skills": { "Nocturnal Flash": 15, "Baisudi": 16, "Divine Grace": 18 },
-        "stats": [7, 10, 9, 11, 9],
-        "trait": "Elec Lineage"
-    },
-    "Ananta": {
-        "inherits": "nuke",
-        "item": "Mafreila Ring",
-        "itemr": "Freidyne Ring",
-        "level": 44,
-        "arcana": "Councillor",
-        "elems": ["-", "-", "-", "ab", "wk", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Abysmal Surge": 46,
-            "Growth 2": 47,
-            "Marakukaja": 48,
-            "Freidyne": 49,
-            "Nuke Boost": 50
-        },
-        "stats": [26, 30, 31, 27, 25],
-        "trait": "Nuke Lineage"
+        "trait": "Odd Immunity",
+        "personality" : "Timid",
+        "question" : "Hey, let's play a game! Guess what I wanna eat!",
+        "a" : "Hamburgers",
+        "b" : "Curry",
+        "c" : "Shut up",
+        "correct" : "a"
     },
     "Andras": {
         "inherits": "ice",
@@ -105,7 +30,13 @@
             "Ghastly Wail": 32
         },
         "stats": [15, 19, 19, 21, 14],
-        "trait": "Foul Contagion"
+        "trait": "Foul Contagion",
+        "personality" : "Timid",
+        "question" : "If you capture me, what you going to do to me?",
+        "a" : "Eat you in a hot pot",
+        "b" : "Take you to a taxidermist",
+        "c" : "You'll be my new stylish coat",
+        "correct" : "b"
     },
     "Angel": {
         "inherits": "bless",
@@ -116,7 +47,13 @@
         "elems": ["-", "wk", "-", "-", "rs", "-", "-", "-", "nu", "wk"],
         "skills": { "Baisudi": 10, "Dodge Curse": 11, "Dekunda": 12 },
         "stats": [6, 9, 5, 9, 5],
-        "trait": "Chained Technique"
+        "trait": "Chained Technique",
+        "personality" : "Irritable",
+        "question" : "Hey. Aren't you hungry? Can we take a break and go eat somewhere?",
+        "a" : "Eat you in a hot pot",
+        "b" : "Take you to a taxidermist",
+        "c" : "You'll be my new stylish coat",
+        "correct" : "b"
     },
     "Anubis": {
         "inherits": "almighty",
@@ -127,7 +64,14 @@
         "elems": ["-", "rs", "-", "-", "-", "-", "rs", "-", "nu", "nu"],
         "skills": { "Maeiga": 36, "Dekunda": 37, "Resist Bless": 38 },
         "stats": [19, 24, 22, 21, 23],
-        "trait": "Deadly Plague"
+        "trait": "Deadly Plague",
+        "personality" : "Gloomy",
+        "question" : "Hey. So whaddya think when you think about the future?",
+        "a" : "An average level of happiness",
+        "b" : "Live fast, die young",
+        "c" : "I just want to enjoy the now",
+        "correct" : "a"
+ 
     },
     "Anzu": {
         "inherits": "wind",
@@ -138,7 +82,13 @@
         "elems": ["-", "wk", "-", "-", "rs", "rp", "-", "wk", "-", "-"],
         "skills": { "Assault Dive": 27, "Dekaja": 28, "Null Forget": 29 },
         "stats": [14, 18, 15, 21, 14],
-        "trait": "Wind Lineage"
+        "trait": "Wind Lineage",
+        "personality" : "Gloomy",
+        "question" : "Me am really in soup, now. Do what you want. Me am ready if you want grill me, so...",
+        "a" : "OK, I'll make you into soup",
+        "b" : "Fine I'll grill you",
+        "c" : "All right I'll mince you!",
+        "correct" : "b"
     },
     "Apsaras": {
         "inherits": "ice",
@@ -149,23 +99,13 @@
         "elems": ["-", "-", "wk", "rs", "wk", "-", "-", "-", "-", "-"],
         "skills": { "Media": 13, "Elec Wall": 14, "Wind Wall": 16 },
         "stats": [7, 11, 6, 10, 6],
-        "trait": "Self Hypnosis"
-    },
-    "Ara Mitama": {
-        "inherits": "nuke",
-        "item": "Freila Ring",
-        "itemr": "Mafreila Ring",
-        "level": 30,
-        "arcana": "Chariot",
-        "elems": ["rs", "-", "-", "wk", "-", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Rebellion": 31,
-            "Marakunda": 32,
-            "Rage Boost": 34,
-            "Matarukaja": 35
-        },
-        "stats": [20, 18, 20, 20, 19],
-        "trait": "Nuke Lineage"
+        "trait": "Self Hypnosis",
+        "personality" : "Upbeat",
+        "question" : "I wonder if us speaking together like this now means that we are somehow connected...",
+        "a" : "Eh, could be",
+        "b" : "No, I don't think so",
+        "c" : "It's what we call destiny",
+        "correct" : "c"
     },
     "Arahabaki": {
         "inherits": "ailment",
@@ -180,7 +120,13 @@
             "Defense Master": 39
         },
         "stats": [21, 23, 22, 24, 22],
-        "trait": "Iron Immunity"
+        "trait": "Iron Immunity",
+        "personality" : "Gloomy",
+        "question" : "So why me in this situation right now? Why me at your mercy?",
+        "a" : "Times have changed",
+        "b" : "Humans are powerful",
+        "c" : "This is a difficult topic...",
+        "correct" : "a"
     },
     "Archangel": {
         "inherits": "bless",
@@ -191,25 +137,13 @@
         "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "nu", "wk"],
         "skills": { "Rebellion": 16, "Power Slash": 17, "Vajra Blast": 19 },
         "stats": [11, 9, 10, 12, 7],
-        "trait": "Chained Technique"
-    },
-    "Ardha": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Sahasrara",
-        "itemr": "Sahasrara R",
-        "level": 84,
-        "arcana": "Temperance",
-        "elems": ["rs", "-", "-", "nu", "nu", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Agneyastra": 87,
-            "Auto-Masuku": 88,
-            "Fortified Moxy": 89,
-            "Salvation": 90
-        },
-        "stats": [54, 56, 55, 54, 40],
-        "trait": "Naranari",
-        "max": true
+        "trait": "Chained Technique",
+        "personality" : "Irritable",
+        "question" : "Do you seek friendly competition with a beloved neighbor? Or have you come to destroy a hated foe?",
+        "a" : "You're a beloved neighbor",
+        "b" : "You're a loathsome foe",
+        "c" : "You sound preachy",
+        "correct" : "a"
     },
     "Arsene": {
         "inherits": "curse",
@@ -220,74 +154,12 @@
         "elems": ["-", "-", "-", "wk", "-", "-", "-", "-", "wk", "rs"],
         "skills": { "Cleave": 2, "Sukunda": 4, "Dream Needle": 5, "Adverse Resolve": 7 },
         "stats": [2, 2, 2, 3, 1],
-        "trait": "Last Stand"
-    },
-    "Asura-Ou": {
-        "special": true,
-        "inherits": "nuke",
-        "item": "Vajra",
-        "itemr": "Vajra R",
-        "level": 76,
-        "arcana": "Sun",
-        "elems": ["-", "-", "nu", "-", "-", "-", "wk", "rp", "-", "-"],
-        "skills": {
-            "Auto-Mataru": 78,
-            "Mafreidyne": 79,
-            "High Counter": 80,
-            "Unshaken Will": 81
-        },
-        "stats": [52, 48, 51, 49, 35],
-        "trait": "Path of Carnage",
-        "max": true
-    },
-    "Atavaka": {
-        "inherits": "phys",
-        "item": "Brave Blade",
-        "itemr": "Sword Dance",
-        "level": 65,
-        "arcana": "Faith",
-        "elems": ["rs", "nu", "rp", "-", "-", "-", "-", "-", "-", "rs"],
-        "skills": {
-            "High Counter": 67,
-            "Samarecarm": 68,
-            "Brave Blade": 70,
-            "Attack Master": 71
-        },
-        "stats": [51, 36, 43, 38, 34],
-        "trait": "Recovery Lineage"
-    },
-    "Atropos": {
-        "inherits": "elec",
-        "item": "Mazionga",
-        "itemr": "Ziodyne",
-        "level": 39,
-        "arcana": "Fortune",
-        "elems": ["-", "-", "wk", "-", "-", "nu", "-", "-", "-", "-"],
-        "skills": {
-            "Mediarama": 41,
-            "Elec Boost": 42,
-            "Ziodyne": 44,
-            "Concentrate": 45
-        },
-        "stats": [23, 30, 22, 27, 22],
-        "trait": "Peerless Gaze"
-    },
-    "Attis": {
-        "inherits": "fire",
-        "item": "Null Curse",
-        "itemr": "Absorb Curse",
-        "level": 82,
-        "arcana": "Hanged",
-        "elems": ["-", "-", "nu", "-", "-", "rp", "-", "-", "-", "wk"],
-        "skills": {
-            "Enduring Soul": 84,
-            "Samarecarm": 85,
-            "Absorb Curse": 86,
-            "Blazing Hell": 88
-        },
-        "stats": [49, 50, 48, 54, 52],
-        "trait": "Dying Will",
-        "max": true
+        "trait": "Last Stand",
+        "question" : "I am the rebel's soul that resides within you. If you so desire, I shall consider granting you the power to break through this crisis.",
+        "a" : "Give me your power",
+        "b" : "I don't want to die",
+        "correct" : "a",
+        "response" : "Hmph, very well... This power of mine is yours!"
     },
     "Baal": {
         "inherits": "wind",
@@ -303,7 +175,13 @@
             "Vacuum Wave": 87
         },
         "stats": [54, 58, 53, 47, 41],
-        "trait": "Wind Lineage"
+        "trait": "Wind Lineage",
+        "personality" : "Upbeat",
+        "question" : "As far as you're concerned, what kind of person was I to you?",
+        "a" : "My rival",
+        "b" : "Nobody, really",
+        "c" : "It doesn't matter",
+        "correct" : "a"
     },
     "Baphomet": {
         "inherits": "almighty",
@@ -319,7 +197,13 @@
             "Freeze Boost": 63
         },
         "stats": [34, 42, 36, 38, 31],
-        "trait": "Burning Touch"
+        "trait": "Burning Touch",
+        "personality" : "Timid",
+        "question" : "A bad rep spreads like wildfire. If I were you, I'd quit all this nonsense. What's the point?",
+        "a" : "You're right",
+        "b" : "I don't care",
+        "c" : "I don't know any other way",
+        "correct" : "a"
     },
     "Barong": {
         "inherits": "elec",
@@ -330,41 +214,13 @@
         "elems": ["-", "rs", "-", "-", "rs", "wk", "-", "-", "nu", "wk"],
         "skills": { "Elec Break": 54, "Null Elec": 55, "Maziodyne": 57 },
         "stats": [33, 35, 33, 37, 25],
-        "trait": "Bless Lineage"
-    },
-    "Beelzebub": {
-        "inherits": "curse",
-        "item": "Fleurs du Mal",
-        "itemr": "Fleurs du Mal R",
-        "level": 87,
-        "arcana": "Devil",
-        "elems": ["-", "-", "ab", "-", "-", "-", "-", "-", "wk", "rp"],
-        "skills": {
-            "Curse Amp": 88,
-            "Concentrate": 89,
-            "Demonic Decree": 90,
-            "Repel Ice": 91,
-            "Megidolaon": 92
-        },
-        "stats": [55, 61, 54, 56, 42],
-        "trait": "Reaper's Despair",
-        "max": true
-    },
-    "Belial": {
-        "inherits": "curse",
-        "item": "Mamudoon",
-        "itemr": "Demonic Decree",
-        "level": 82,
-        "arcana": "Devil",
-        "elems": ["nu", "-", "-", "rs", "-", "-", "-", "-", "-", "nu"],
-        "skills": {
-            "Maeigaon": 84,
-            "Fear Boost": 85,
-            "Mamudoon": 86,
-            "Demonic Decree": 88
-        },
-        "stats": [52, 53, 51, 48, 49],
-        "trait": "Bloodshot Gaze"
+        "trait": "Bless Lineage",
+        "personality" : "Timid",
+        "question" : "Ah, it's a shame. If I'd taken this seriously from the start, I wouldn't be in this sorry state",
+        "a" : "Then get serious now",
+        "b" : "Making excuses?",
+        "c" : "I wasn't trying either",
+        "correct" : "c"
     },
     "Belphegor": {
         "inherits": "ice",
@@ -375,7 +231,13 @@
         "elems": ["-", "-", "wk", "rs", "rs", "-", "-", "rs", "-", "rp"],
         "skills": { "Null Rage": 38, "Dodge Fire": 39, "Bufudyne": 41, "Concentrate": 42 },
         "stats": [25, 27, 24, 23, 19],
-        "trait": "Focused Gaze"
+        "trait": "Focused Gaze",
+        "personality" : "Irritable",
+        "question" : "Somethin' bad happen in yer life or somethin', sonny?",
+        "a" : "It's not like that",
+        "b" : "Nothing but bad things...",
+        "c" : "You're getting on my nerves!",
+        "correct" : "c"
     },
     "Berith": {
         "inherits": "phys",
@@ -386,7 +248,13 @@
         "elems": ["-", "nu", "rs", "wk", "-", "-", "-", "-", "-", "-"],
         "skills": { "Tarukaja": 10, "Dodge Fire": 11, "Power Slash": 13 },
         "stats": [9, 6, 8, 8, 3],
-        "trait": "Crisis Management"
+        "trait": "Crisis Management",
+        "personality" : "Irritable",
+        "question" : "What kinda fate do you think there is in this meetin' between me and you?",
+        "a" : "Fate brought us together",
+        "b" : "There is no such thing",
+        "c" : "I want to end this fate",
+        "correct" : "a"
     },
     "Bicorn": {
         "inherits": "wind",
@@ -397,57 +265,13 @@
         "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "-", "rs"],
         "skills": {"Garu": 6, "Ice Wall": 7, "Apt Pupil": 8 },
         "stats": [5, 3, 3, 5, 3],
-        "trait": "Heavyweight"
-    },
-    "Bishamonten": {
-        "inherits": "nuke",
-        "item": "Mafreidyne",
-        "itemr": "Atomic Flare",
-        "level": 67,
-        "arcana": "Hierophant",
-        "elems": ["-", "-", "ab", "wk", "-", "-", "-", "-", "rs", "rs"],
-        "skills": {
-            "Mafreidyne": 69,
-            "Nuke Amp": 71,
-            "Tetrakarn": 72,
-            "God's Hand": 73
-        },
-        "stats": [51, 37, 42, 44, 34],
-        "trait": "Recovery Lineage"
-    },
-    "Biyarky": {
-        "inherits": "fire",
-        "item": "Null Wind",
-        "itemr": "Repel Wind",
-        "level": 70,
-        "arcana": "Moon",
-        "elems": ["-", "-", "nu", "wk", "-", "nu", "-", "wk", "-", "nu"],
-        "skills": {
-            "Maragidyne": 72,
-            "Ailment Boost": 73,
-            "Fire Break": 74,
-            "Heat Riser": 75
-        },
-        "stats": [42, 49, 43, 51, 32],
-        "trait": "Fire Lineage",
-        "note": "Only available after 1/12"
-    },
-    "Black Frost": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Naraku Whip",
-        "itemr": "Naraku Whip R",
-        "level": 67,
-        "arcana": "Fool",
-        "elems": ["-", "-", "rp", "ab", "-", "-", "-", "nu", "-", "rp"],
-        "skills": {
-            "Ice Amp": 68,
-            "Freeze Boost": 70,
-            "Repel Fire": 71,
-            "Diamond Dust": 72
-        },
-        "stats": [44, 46, 41, 42, 35],
-        "trait": "Ice Lineage"
+        "trait": "Heavyweight",
+        "personality" : "Irritable",
+        "question" : "Know how they say, Be kind ta yer elders? Has no one ever taught you that?",
+        "a" : "Someone did once",
+        "b" : "I don't care",
+        "c" : "I don't want to grow old",
+        "correct" : "b"
     },
     "Black Ooze": {
         "inherits": "curse",
@@ -463,68 +287,13 @@
             "Flash Bomb": 24
         },
         "stats": [15, 7, 16, 8, 15],
-        "trait": "Odd Immunity"
-    },
-    "Black Rider": {
-        "inherits": "curse",
-        "item": "Megidola",
-        "itemr": "Megidolaon",
-        "level": 59,
-        "arcana": "Tower",
-        "elems": ["-", "-", "wk", "ab", "-", "-", "-", "-", "rs", "rs"],
-        "skills": {
-            "Ambient Aid": 60,
-            "Bloodbath": 61,
-            "Ghastly Wail": 63,
-            "Megidola": 64
-        },
-        "stats": [36, 42, 34, 42, 30],
-        "trait": "Storm Born"
-    },
-    "Bugs": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Bear Gloves",
-        "itemr": "Bugbear Gloves",
-        "level": 49,
-        "arcana": "Fool",
-        "elems": ["-", "-", "-", "-", "-", "-", "rs", "wk", "-", "nu"],
-        "skills": {
-            "Auto-Mataru": 51,
-            "Triple Down": 52,
-            "Evade Physical": 54,
-            "Fast Heal": 55
-        },
-        "stats": [35, 33, 30, 32, 24],
-        "trait": "Group Hypnosis"
-    },
-    "Byakko": {
-        "inherits": "ice",
-        "item": "Mabufula Ring",
-        "itemr": "Bufudyne Ring",
-        "level": 45,
-        "arcana": "Temperance",
-        "elems": ["-", "-", "wk", "ab", "-", "-", "-", "wk", "-", "rs"],
-        "skills": {
-            "Ice Boost": 47,
-            "Ice Break": 48,
-            "Evade Fire": 49,
-            "Null Rage": 50,
-            "Bufudyne": 51
-        },
-        "stats": [35, 28, 30, 32, 17],
-        "trait": "Avenger"
-    },
-    "Cait Sith": {
-        "inherits": "ailment",
-        "item": "Agi",
-        "itemr": "Maragi",
-        "level": 5,
-        "arcana": "Magician",
-        "elems": ["-", "-", "-", "-", "rs", "wk", "-", "-", "-", "-"],
-        "skills": { "Resist Sleep": 6, "Sukukaja": 7, "Media": 9 },
-        "stats": [6, 4, 4, 5, 3],
-        "trait": "Burning Touch"
+        "trait": "Odd Immunity",
+        "personality" : "Irritable",
+        "question" : "They always give the guys katsudon! You got anything like that for me!?",
+        "a" : "Katsudon, coming right up",
+        "b" : "How about sushi...",
+        "c" : "I have nothing for you",
+        "correct" : "a"
     },
     "Cerberus": {
         "inherits": "fire",
@@ -540,7 +309,13 @@
             "Enduring Soul": 60
         },
         "stats": [39, 35, 32, 39, 27],
-        "trait": "Fire Lineage"
+        "trait": "Fire Lineage",
+        "personality" : "Irritable",
+        "question" : "You go back to your mother' arms. You need take nap now",
+        "a" : "I'm not that young",
+        "b" : "I'm not sleepy yet",
+        "c" : "Mom will wait till I'm done",
+        "correct" : "a"
     },
     "Chernobog": {
         "inherits": "ailment",
@@ -556,41 +331,13 @@
             "Brave Blade": 67
         },
         "stats": [40, 37, 39, 38, 39],
-        "trait": "Crisis Management"
-    },
-    "Chi You": {
-        "special": true,
-        "inherits": "psy",
-        "item": "Repel Phys",
-        "itemr": "Absorb Phys",
-        "level": 88,
-        "arcana": "Chariot",
-        "elems": ["rs", "rs", "-", "-", "-", "-", "nu", "wk", "-", "-"],
-        "skills": {
-            "Fortify Spirit": 90,
-            "Psycho Blast": 91,
-            "Absorb Psy": 92,
-            "Concentrate": 94
-        },
-        "stats": [56, 57, 54, 53, 51],
-        "trait": "Wargod's Wrath"
-    },
-    "Chimera": {
-        "inherits": "phys",
-        "item": "Null Fire",
-        "itemr": "Absorb Fire",
-        "level": 74,
-        "arcana": "Strength",
-        "elems": ["-", "-", "ab", "nu", "-", "wk", "-", "-", "-", "wk"],
-        "skills": {
-            "Marakunda": 76,
-            "Fire Amp": 77,
-            "Mabufudyne": 78,
-            "Ice Amp": 79
-        },
-        "stats": [51, 40, 42, 48, 48],
-        "trait": "Stagnant Aura",
-        "note": "Only available after 1/12"
+        "trait": "Crisis Management",
+        "personality" : "Gloomy",
+        "question" : "...Who the blazes do you think you are?",
+        "a" : "I feel bad about that",
+        "b" : "I'm ME!",
+        "c" : "I don't have to answer you",
+        "correct" : "c"
     },
     "Choronzon": {
         "inherits": "curse",
@@ -607,105 +354,13 @@
             "Climate Decorum": 33
         },
         "stats": [16, 19, 19, 18, 19],
-        "trait": "Bloodsucker"
-    },
-    "Clotho": {
-        "inherits": "healing",
-        "item": "Tetraja",
-        "itemr": "Makarakarn",
-        "level": 27,
-        "arcana": "Fortune",
-        "elems": ["-", "-", "-", "wk", "-", "nu", "-", "wk", "-", "-"],
-        "skills": {
-            "Tetraja": 28,
-            "Makajamaon": 30,
-            "Energy Shower": 31,
-            "Invigorate 1": 33
-        },
-        "stats": [14, 19, 18, 20, 17],
-        "trait": "Support Lineage"
-    },
-    "Crystal Skull": {
-        "rare": true,
-        "inherits": "almighty",
-        "item": "Crystal Skull",
-        "itemr": "Crystal Skull R",
-        "level": 50,
-        "arcana": "Fool",
-        "elems": ["rs", "rs", "-", "-", "-", "wk", "-", "-", "-", "-"],
-        "skills": {
-            "Maragidyne": 40,
-            "Mabufudyne": 40,
-            "Magarudyne": 40,
-            "Maziodyne": 40,
-            "Mapsiodyne": 40,
-            "Mafreidyne": 40,
-            "Makougaon": 60,
-            "Maeigaon": 60,
-            "Stagnant Aura": 60,
-            "Pandemic Gaze": 60,
-            "Curse Lineage": 60
-        },
-        "stats": [50, 50, 50, 50, 50],
-        "trait": "Treasured Talent"
-    },
-    "Cu Chulainn": {
-        "inherits": "almighty",
-        "item": "One-shot Kill",
-        "itemr": "Riot Gun",
-        "level": 76,
-        "arcana": "Faith",
-        "elems": ["rs", "rs", "-", "-", "wk", "rp", "-", "-", "nu", "-"],
-        "skills": {
-            "High Counter": 10,
-            "One-shot Kill": 10,
-            "Rebellion": 10,
-            "Matarukaja": 78,
-            "Brave Blade": 79,
-            "Charge": 80,
-            "Apt Pupil": 81
-        },
-        "stats": [55, 44, 46, 48, 42],
-        "trait": "Group Hypnosis"
-    },
-    "Cybele": {
-        "inherits": "healing",
-        "item": "Sabazios",
-        "itemr": "Gorodias",
-        "level": 83,
-        "arcana": "Priestess",
-        "elems": ["-", "-", "rs", "-", "wk", "-", "-", "-", "nu", "-"],
-        "skills": {
-            "Samarecarm": 10,
-            "Mediarahan": 10,
-            "Makougaon": 10,
-            "Amrita Shower": 84,
-            "Auto-Maraku": 86,
-            "Absorb Bless": 87,
-            "Salvation": 89
-        },
-        "stats": [44, 57, 49, 51, 55],
-        "trait": "Chained Lineage",
-        "max": true
-    },
-    "Daisoujou": {
-        "inherits": "bless",
-        "item": "Makouga Ring",
-        "itemr": "Kougaon Ring",
-        "level": 40,
-        "arcana": "Hierophant",
-        "elems": ["rs", "-", "-", "-", "-", "-", "-", "-", "nu", "wk"],
-        "skills": {
-            "Spirit Drain": 10,
-            "Makouga": 10,
-            "Samsara": 41,
-            "Bless Boost": 42,
-            "Diarahan": 43,
-            "Me Patra": 44,
-            "Null Rage": 45
-        },
-        "stats": [21, 33, 24, 24, 25],
-        "trait": "Bloodsucker"
+        "trait": "Bloodsucker",
+        "personality" : "Timid",
+        "question" : "Hey, sonny if somethin's been botherin' you. I'm willing to give you a listen.",
+        "a" : "My relationships...",
+        "b" : "My future...!",
+        "c" : "I have no worries",
+        "correct" : "b"
     },
     "Dakini": {
         "inherits": "phys",
@@ -724,7 +379,13 @@
             "Charge": 55
         },
         "stats": [34, 32, 34, 28, 29],
-        "trait": "Chained Technique"
+        "trait": "Chained Technique",
+        "personality" : "Upbeat",
+        "question" : "Don't you think it's sad that slang and sayings can grow old and get outdated?",
+        "a" : "That is sad",
+        "b" : "I don't think so",
+        "c" : "That just proves you're old",
+        "correct" : "a"
     },
     "Decarabia": {
         "inherits": "fire",
@@ -743,26 +404,13 @@
             "Megidola": 38
         },
         "stats": [21, 23, 19, 22, 18],
-        "trait": "Fire Lineage"
-    },
-    "Dionysus": {
-        "inherits": "ailment",
-        "item": "Maziodyne",
-        "itemr": "Thunder Reign",
-        "level": 71,
-        "arcana": "Councillor",
-        "elems": ["-", "-", "-", "-", "rp", "-", "-", "-", "nu", "nu"],
-        "skills": {
-            "Maziodyne": 10,
-            "Ziodyne": 10,
-            "Brain Jack": 10,
-            "Thermopylae": 72,
-            "Ailment Boost": 73,
-            "Amrita Shower": 75,
-            "Debilitate": 76
-        },
-        "stats": [42, 48, 44, 42, 44],
-        "trait": "Last Stand"
+        "trait": "Fire Lineage",
+        "personality" : "Gloomy",
+        "question" : "Hey. So whaddya think when you think about the future?",
+        "a" : "An average level of happiness",
+        "b" : "Live fast, die young",
+        "c" : "I just want to enjoy the now",
+        "correct" : "a"
     },
     "Dominion": {
         "inherits": "bless",
@@ -781,7 +429,13 @@
             "Evade Curse": 74
         },
         "stats": [42, 45, 43, 44, 37],
-        "trait": "Bless Lineage"
+        "trait": "Bless Lineage",
+        "personality" : "Gloomy",
+        "question" : "That power, vow that you will use it in the name of our Father",
+        "a" : "I'll consider it",
+        "b" : "That's a bit much",
+        "c" : "I refuse",
+        "correct" : "b"
     },
     "Eligor": {
         "inherits": "fire",
@@ -799,71 +453,13 @@
             "Memory Blow": 20
         },
         "stats": [12, 10, 13, 10, 10],
-        "trait": "Burning Touch"
-    },
-    "Emperor's Amulet": {
-        "rare": true,
-        "inherits": "almighty",
-        "item": "Emperor's Amulet",
-        "itemr": "Emepror's Amulet R",
-        "level": 35,
-        "arcana": "Hanged",
-        "elems": ["rs", "rs", "-", "-", "wk", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Agidyne": 10,
-            "Bufudyne": 10,
-            "Garudyne": 10,
-            "Ziodyne": 10,
-            "Psiodyne": 10,
-            "Freidyne": 10,
-            "Kougaon": 10,
-            "Eigaon": 10,
-            "Ice Lineage": 10,
-            "Wind Lineage": 10,
-            "Psy Lineage": 0
-        },
-        "stats": [35, 35, 35, 35, 35],
-        "trait": "Treasured Talent"
-    },
-    "Fafnir": {
-        "inherits": "nuke",
-        "item": "Mafreidyne Ring",
-        "itemr": "Atomic Flare Ring",
-        "level": 86,
-        "arcana": "Hermit",
-        "elems": ["rp", "rp", "ab", "-", "rs", "-", "-", "ab", "-", "-"],
-        "skills": {
-            "Gigantomachia": 10,
-            "Evil Smile": 10,
-            "Cosmic Flare": 10,
-            "Atomic Flare": 88,
-            "Nuke Amp": 90,
-            "Debilitate": 91,
-            "Absorb Nuke": 92
-        },
-        "stats": [61, 55, 58, 48, 43],
-        "trait": "Pandemic Gaze",
-        "note": "Only available after 1/12"
-    },
-    "Flauros": {
-        "special": true,
-        "inherits": "ailment",
-        "item": "Giant Slice Belt",
-        "itemr": "Rising Slash Belt",
-        "level": 19,
-        "arcana": "Devil",
-        "elems": ["-", "-", "nu", "wk", "-", "rs", "-", "rs", "-", "-"],
-        "skills": {
-            "Giant Slice": 10,
-            "Dormin Rush": 10,
-            "Dekaja": 10,
-            "Dodge Physical": 20,
-            "Rebellion": 22,
-            "Cornered Fang": 23,
-            "Heat Up": 24
-        },
-        "stats": [15, 11, 13, 14, 11],
-        "trait": "Life Focus"
+        "trait": "Burning Touch",
+        "personality" : "Irritable",
+        "question" : "Y'know, if I'm gonna be killed, I'd rather be offed by some beautiful, classy woman",
+        "a" : "Sorry",
+        "b" : "You don't get to be picky",
+        "c" : "It's all the same",
+        "correct" : "b"
     },
     "Forneus": {
         "inherits": "psy",
@@ -882,47 +478,13 @@
             "Evade Psy": 68
         },
         "stats": [41, 39, 40, 42, 34],
-        "trait": "Bloodshot Gaze"
-    },
-    "Fortuna": {
-        "inherits": "wind",
-        "item": "Fortuna Robe",
-        "itemr": "Fortuna Robe R",
-        "level": 46,
-        "arcana": "Fortune",
-        "elems": ["-", "-", "nu", "-", "wk", "nu", "-", "-", "-", "-"],
-        "skills": {
-            "Magarula": 10,
-            "Masukukaja": 10,
-            "Tetraja": 10,
-            "Garudyne": 47,
-            "Touch n' Go": 49,
-            "Amrita Drop": 50,
-            "Evade Elec": 51
-        },
-        "stats": [23, 32, 29, 34, 27],
-        "trait": "Wind Lineage"
-    },
-    "Futsunushi": {
-        "inherits": "phys",
-        "item": "Hinokagutsuchi",
-        "itemr": "Hinokagutsuchi R",
-        "level": 86,
-        "arcana": "Magician",
-        "elems": ["rs", "-", "-", "-", "-", "-", "-", "wk", "-", "-"],
-        "skills": {
-            "Myriad Slashes": 10,
-            "Matarukaja": 10,
-            "Apt Pupil": 10,
-            "Charge": 88,
-            "Brave Blade": 89,
-            "Regenerate 3": 90,
-            "Firm Stance": 91,
-            "Auto-Maraku": 92
-        },
-        "stats": [60, 58, 55, 52, 40],
-        "trait": "Sword God",
-        "max": true
+        "trait": "Bloodshot Gaze",
+        "personality" : "Timid",
+        "question" : "What do ya usually eat?",
+        "a" : "Curry",
+        "b" : "Vegetables",
+        "c" : "Protein",
+        "correct" : "a"
     },
     "Fuu-Ki": {
         "inherits": "wind",
@@ -933,27 +495,13 @@
         "elems": ["-", "rs", "-", "-", "wk", "ab", "-", "-", "-", "-"],
         "skills": { "Tetra Break": 10, "Tarukaja": 10, "Garula": 10, "Wind Boost": 25, "Magarula": 26, "Resist Wind": 27 },
         "stats": [14, 17, 16, 15, 14],
-        "trait": "Focused Gaze"
-    },
-    "Gabriel": {
-        "inherits": "almighty",
-        "item": "Mabufudyne Ring",
-        "itemr": "Diamond Dust Ring",
-        "level": 77,
-        "arcana": "Temperance",
-        "elems": ["-", "-", "-", "-", "-", "-", "nu", "-", "ab", "-"],
-        "skills": {
-            "Maziodyne": 10,
-            "Mabufudyne": 10,
-            "Divine Judgement": 78,
-            "Ali Dance": 79,
-            "Evade Curse": 80,
-            "Touch n' Go": 81,
-            "Ice Amp": 82,
-            "Salvation": 83
-        },
-        "stats": [43, 51, 48, 54, 42],
-        "trait": "Relentlessness"
+        "trait": "Focused Gaze",
+        "personality" : "Gloomy",
+        "question" : "A bad rep spreads like wildfire. If I were you, I'd quit all this nonsense. What's the point?",
+        "a" : "You're right",
+        "b" : "I don't care",
+        "c" : "I don't know any other way",
+        "correct" : "a"
     },
     "Ganesha": {
         "inherits": "ailment",
@@ -972,7 +520,13 @@
             "Charge": 60
         },
         "stats": [39, 31, 37, 33, 26],
-        "trait": "Life Focus"
+        "trait": "Life Focus",
+        "personality" : "Upbeat",
+        "question" : "I know when I'm gettin' all sweaty. I'm glistenin', ain't I?",
+        "a" : "Like a disco ball",
+        "b" : "Not at all",
+        "c" : "Why does that matter?",
+        "correct" : "c"
     },
     "Garuda": {
         "inherits": "wind",
@@ -991,18 +545,13 @@
             "Wind Amp": 59
         },
         "stats": [30, 36, 29, 39, 29],
-        "trait": "Wind Lineage"
-    },
-    "Genbu": {
-        "inherits": "ice",
-        "item": "Bufu Ring",
-        "itemr": "Mabufu Ring",
-        "level": 7,
-        "arcana": "Temperance",
-        "elems": ["-", "-", "-", "nu", "wk", "-", "rs", "-", "-", "-"],
-        "skills": { "Bufu": 10, "Rakunda": 10, "Patra": 8, "Resist Forget": 9, "Mabufu": 10, "Defense Master": 12 },
-        "stats": [5, 6, 7, 6, 4],
-        "trait": "Freezing Follow-up"
+        "trait": "Wind Lineage",
+        "personality" : "Irritable",
+        "question" : "What you thinking now?",
+        "a" : "I have homework tonight",
+        "b" : "I need a new cell phone",
+        "c" : "I want girls to like me",
+        "correct" : "a"
     },
     "Girimehkala": {
         "inherits": "ailment",
@@ -1013,7 +562,13 @@
         "elems": ["rp", "rp", "rs", "-", "-", "-", "-", "-", "wk", "nu"],
         "skills": { "Mudoon": 10, "Marakunda": 10, "Deathbound": 10, "Agidyne": 46, "Wage War": 47, "Repel Phys": 50 },
         "stats": [32, 24, 32, 29, 19],
-        "trait": "Curse Lineage"
+        "trait": "Curse Lineage",
+        "personality" : "Gloomy",
+        "question" : "I coulda been a star...",
+        "a" : "A star?",
+        "b" : "That's never happening",
+        "c" : "Are you giving up?",
+        "correct" : "c"
     },
     "Hanuman": {
         "inherits": "phys",
@@ -1031,86 +586,13 @@
             "Regenerate 3": 69
         },
         "stats": [43, 38, 40, 40, 38],
-        "trait": "Group Hypnosis"
-    },
-    "Hariti": {
-        "inherits": "elec",
-        "item": "Recarm Charm",
-        "itemr": "Samarecarm Charm",
-        "level": 40,
-        "arcana": "Empress",
-        "elems": ["-", "-", "-", "-", "-", "wk", "rs", "-", "rs", "-"],
-        "skills": {
-            "Zionga": 10,
-            "Energy Shower": 10,
-            "Mabaisudi": 10,
-            "Samarecarm": 41,
-            "Nocturnal Flash": 42,
-            "Mediarama": 44,
-            "Dizzy Boost": 45,
-            "Spirit Drain": 46
-        },
-        "stats": [21, 32, 24, 23, 27],
-        "trait": "Elec Lineage"
-    },
-    "Hastur": {
-        "inherits": "wind",
-        "item": "Magarudyne Ring",
-        "itemr": "Panta Rhei Ring",
-        "level": 84,
-        "arcana": "Star",
-        "elems": ["-", "-", "rs", "-", "-", "ab", "nu", "-", "-", "nu"],
-        "skills": {
-            "Vacuum Wave": 10,
-            "Nocturnal Flash": 10,
-            "Debilitate": 10,
-            "Abyssal Gaze": 86,
-            "Wind Amp": 87,
-            "Spirit Drain": 88,
-            "Repel Wind": 89
-        },
-        "stats": [51, 59, 52, 56, 41],
-        "trait": "Spirit Focus",
-        "note": "Only available after 1/12"
-    },
-    "Hecatoncheires": {
-        "inherits": "phys",
-        "item": "Swift Strike Belt",
-        "itemr": "Gattling Blows Belt",
-        "level": 42,
-        "arcana": "Hanged",
-        "elems": ["-", "rs", "-", "-", "-", "-", "-", "-", "wk", "nu"],
-        "skills": {
-            "Swift Strike": 10,
-            "Regenerate 2": 10,
-            "Tarukaja": 10,
-            "Endure": 43,
-            "Rebellion": 45,
-            "Fortified Moxy": 46,
-            "Gattling Blows": 49
-        },
-        "stats": [35, 22, 27, 23, 26],
-        "trait": "Life Focus"
-    },
-    "Hell Biker": {
-        "special": true,
-        "inherits": "fire",
-        "item": "Black Jacket",
-        "itemr": "Dark Jacket",
-        "level": 37,
-        "arcana": "Death",
-        "elems": ["-", "-", "rp", "-", "-", "rs", "-", "-", "wk", "-"],
-        "skills": {
-            "Mudoon": 10,
-            "Agilao": 10,
-            "Speed Master": 10,
-            "Tentarafoo": 38,
-            "Fire Boost": 39,
-            "Maragion": 40,
-            "Mamudoon": 41
-        },
-        "stats": [23, 24, 24, 30, 17],
-        "trait": "Self Hypnosis"
+        "trait": "Group Hypnosis",
+        "personality" : "Upbeat",
+        "question" : "What kinda fate do you think there is in this meetin' between me and you?",
+        "a" : "Fate brought us together",
+        "b" : "There is no such thing",
+        "c" : "I want to end this fate",
+        "correct" : "a"
     },
     "High Pixie": {
         "inherits": "healing",
@@ -1121,50 +603,13 @@
         "elems": ["-", "wk", "-", "-", "rs", "rs", "-", "wk", "-", "-"],
         "skills": { "Garu": 10, "Media": 10, "Dormina": 10, "Diarama": 19, "Pulinpa": 20, "Magaru": 22 },
         "stats": [8, 14, 10, 13, 10],
-        "trait": "Chained Technique"
-    },
-    "Hope Diamond": {
-        "rare": true,
-        "inherits": "almighty",
-        "item": "Hope Diamond",
-        "itemr": "Hope Diamond R",
-        "level": 40,
-        "arcana": "Death",
-        "elems": ["rs", "rs", "-", "wk", "-", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Auto-Mataru": 10,
-            "Auto-Maraku": 10,
-            "Auto-Masuku": 10,
-            "Endure": 10,
-            "Regenerate 2": 10,
-            "Invigorate 2": 10,
-            "High Counter": 10,
-            "Fast Heal": 10,
-            "Self Hypnosis": 10,
-            "Heavyweight": 10,
-            "Avenger": 0
-        },
-        "stats": [40, 40, 40, 40, 40],
-        "trait": "Treasured Talent"
-    },
-    "Horus": {
-        "inherits": "almighty",
-        "item": "Hamaon Ring",
-        "itemr": "Mahamaon Ring",
-        "level": 47,
-        "arcana": "Sun",
-        "elems": ["-", "-", "wk", "-", "nu", "-", "-", "-", "rp", "-"],
-        "skills": {
-            "Megidola": 10,
-            "Diarama": 10,
-            "Kougaon": 10,
-            "Flash Bomb": 49,
-            "Masukukaja": 50,
-            "Hamaon": 51,
-            "Hama Boost": 52
-        },
-        "stats": [30, 32, 29, 35, 22],
-        "trait": "Group Hypnosis"
+        "trait": "Chained Technique",
+        "personality" : "Irritable",
+        "question" : "I'm inclined to turn you down, but if you still wish to speak, I will perhaps consider it",
+        "a" : "You have nothing I want",
+        "b" : "Are you bored?",
+        "c" : "That's horrible premise",
+        "correct" : "a"
     },
     "Hua Po": {
         "inherits": "fire",
@@ -1175,7 +620,13 @@
         "elems": ["-", "wk", "rp", "wk", "-", "-", "-", "-", "-", "-"],
         "skills": { "Agi": 10, "Dormina": 10, "Tarunda": 11, "Resist Forget": 12, "Maragi": 13, "Burn Boost": 15 },
         "stats": [4, 10, 4, 8, 8],
-        "trait": "Burning Touch"
+        "trait": "Burning Touch",
+        "personality" : "Irritable",
+        "question" : "If your girlfriend asked if you were free to have dinner with her friends, what would you say?",
+        "a" : "Sure",
+        "b" : "I'm busy?",
+        "c" : "What are you talking about",
+        "correct" : "b"
     },
     "Incubus": {
         "inherits": "ailment",
@@ -1186,7 +637,13 @@
         "elems": ["-", "-", "wk", "-", "rs", "-", "-", "-", "wk", "-"],
         "skills": { "Life Drain": 10, "Dream Needle": 10, "Dormina": 7, "Tarunda": 8, "Dodge Curse": 9 },
         "stats": [4, 6, 4, 5, 3],
-        "trait": "Bloodsucker"
+        "trait": "Bloodsucker",
+        "personality" : "Timid",
+        "question" : "They always give the guys katsudon! You got anything like that for me!?",
+        "a" : "Katsudon, coming right up",
+        "b" : "How about sushi...?",
+        "c" : "I have nothing for you",
+        "correct" : "a"
     },
     "Inugami": {
         "inherits": "fire",
@@ -1205,7 +662,13 @@
             "Confuse Boost": 19
         },
         "stats": [11, 9, 9, 12, 8],
-        "trait": "Foul Contagion"
+        "trait": "Foul Contagion",
+        "personality" : "Timid",
+        "question" : "Me guessing you have power that me not have. But what is it...?",
+        "a" : "It's my intelligence",
+        "b" : "It's money",
+        "c" : "Girl power",
+        "correct" : "a"
     },
     "Ippon-Datara": {
         "inherits": "phys",
@@ -1223,27 +686,13 @@
             "Counter": 18
         },
         "stats": [11, 7, 14, 6, 8],
-        "trait": "Heavyweight"
-    },
-    "Ishtar": {
-        "inherits": "healing",
-        "item": "Maziodyne Ring",
-        "itemr": "Thunder Reign Ring",
-        "level": 85,
-        "arcana": "Lovers",
-        "elems": ["-", "-", "-", "-", "nu", "wk", "-", "-", "-", "-"],
-        "skills": {
-            "Mediarahan": 10,
-            "Samarecarm": 10,
-            "Absorb Wind": 10,
-            "Insta-Heal": 87,
-            "Maziodyne": 88,
-            "Spell Master": 89,
-            "Salvation": 90
-        },
-        "stats": [48, 59, 49, 58, 48],
-        "trait": "Mother Blessing",
-        "max": true
+        "trait": "Heavyweight",
+        "personality" : "Upbeat",
+        "question" : "Hey. Why aren't you at school?",
+        "a" : "It's a school holiday",
+        "b" : "I don't feel like going",
+        "c" : "I actually finished school",
+        "correct" : "a"
     },
     "Isis": {
         "inherits": "healing",
@@ -1262,7 +711,13 @@
             "Makarakarn": 32
         },
         "stats": [14, 20, 17, 18, 16],
-        "trait": "Recovery Lineage"
+        "trait": "Recovery Lineage",
+        "personality" : "Timid",
+        "question" : "...I'm not going to go easy on you for doing something like this, you know...",
+        "a" : "I'm sorry",
+        "b" : "Prepare for the worst",
+        "c" : "How much do you want",
+        "correct" : "b"
     },
     "Jack Frost": {
         "inherits": "ice",
@@ -1273,56 +728,13 @@
         "elems": ["-", "-", "wk", "nu", "-", "-", "-", "-", "-", "-"],
         "skills": { "Bufu": 10, "Ice Break": 10, "Baisudi": 10, "Mabufu": 12, "Rakunda": 13, "Freeze Boost": 15 },
         "stats": [8, 9, 7, 9, 7],
-        "trait": "Ice Lineage"
-    },
-    "Jack-o'-Lantern": {
-        "inherits": "fire",
-        "item": "Pumpkin Bomb",
-        "itemr": "Pumpkin Buster",
-        "level": 2,
-        "arcana": "Magician",
-        "elems": ["-", "-", "ab", "wk", "-", "wk", "-", "-", "-", "-"],
-        "skills": { "Agi": 10, "Rakunda": 10, "Sharp Student": 4, "Dazzler": 5, "Resist Sleep": 7 },
-        "stats": [2, 3, 3, 3, 2],
-        "trait": "Burning Touch"
-    },
-    "Jatayu": {
-        "inherits": "wind",
-        "item": "Speed Master",
-        "itemr": "Auto-Masuku",
-        "level": 51,
-        "arcana": "Hanged",
-        "elems": ["-", "-", "-", "rs", "-", "rp", "-", "wk", "rs", "-"],
-        "skills": {
-            "Garudyne": 10,
-            "Masukukaja": 10,
-            "Nocturnal Flash": 10,
-            "Dizzy Boost": 52,
-            "Wind Amp": 54,
-            "Magarudyne": 55,
-            "Speed Master": 57
-        },
-        "stats": [31, 34, 29, 36, 30],
-        "trait": "Wind Lineage"
-    },
-    "Jikokuten": {
-        "inherits": "phys",
-        "item": "Assault Dive Belt",
-        "itemr": "Kill Rush Belt",
-        "level": 22,
-        "arcana": "Temperance",
-        "elems": ["rs", "-", "-", "-", "-", "-", "-", "-", "rs", "wk"],
-        "skills": {
-            "Assault Dive": 10,
-            "Defense Master": 10,
-            "Rakunda": 10,
-            "Kill Rush": 24,
-            "Counter": 25,
-            "Matarukaja": 27,
-            "Adverse Resolve": 28
-        },
-        "stats": [18, 11, 16, 15, 13],
-        "trait": "Self Hypnosis"
+        "trait": "Ice Lineage",
+        "personality" : "Timid",
+        "question" : "Have you made an appointment, ho?",
+        "a" : "I have",
+        "b" : "That's not it",
+        "c" : "Just tell me what you know",
+        "correct" : "a"
     },
     "Kaiwan": {
         "inherits": "almighty",
@@ -1341,7 +753,13 @@
             "Marakunda": 41
         },
         "stats": [23, 26, 24, 22, 20],
-        "trait": "Psy Lineage"
+        "trait": "Psy Lineage",
+        "personality" : "Timid",
+        "question" : "It'd prolly be a big downer if the birthday boy didn't show to his party, sooo...",
+        "a" : "Happy birthday",
+        "b" : "I had no idea",
+        "c" : "This'll be your deathday too",
+        "correct" : "b"
     },
     "Kali": {
         "inherits": "fire",
@@ -1360,7 +778,13 @@
             "Vorpal Blade": 68
         },
         "stats": [43, 41, 39, 39, 34],
-        "trait": "Relentlessness"
+        "trait": "Relentlessness",
+        "personality" : "Irritable",
+        "question" : "But I've been around the block, so I know--there's something else you want from me, isn't there?",
+        "a" : "Happy birthday",
+        "b" : "I had no idea",
+        "c" : "This'll be your deathday too",
+        "correct" : "c"
     },
     "Kelpie": {
         "inherits": "wind",
@@ -1371,7 +795,13 @@
         "elems": ["-", "-", "-", "rs", "wk", "-", "-", "-", "-", "-"],
         "skills": { "Garu": 10, "Lunge": 10, "Resist Brainwash": 8, "Sukukaja": 9, "Terror Claw": 10 },
         "stats": [5, 5, 5, 6, 4],
-        "trait": "Heavyweight"
+        "trait": "Heavyweight",
+        "personality" : "Upbeat",
+        "question" : "What you thinking now?",
+        "a" : "I have homework tonight",
+        "b" : "I need a new cell phone",
+        "c" : "I want girls to like me",
+        "correct" : "c"
     },
     "Kikuri-Hime": {
         "inherits": "healing",
@@ -1382,7 +812,13 @@
         "elems": ["-", "-", "wk", "-", "-", "nu", "-", "-", "rs", "-"],
         "skills": { "Lullaby": 10, "Marakukaja": 10, "Energy Drop": 10, "Mediarama": 41, "Tetraja": 43, "Divine Grace": 45 },
         "stats": [22, 31, 24, 28, 22],
-        "trait": "Support Lineage"
+        "trait": "Support Lineage",
+        "personality" : "Gloomy",
+        "question" : "What is irritating you so much?",
+        "a" : "Slow-ass cashiers",
+        "b" : "Egotistical women",
+        "c" : "I'm not irritated",
+        "correct" : "a"
     },
     "Kin-Ki": {
         "inherits": "phys",
@@ -1401,26 +837,13 @@
             "Counterstrike": 31
         },
         "stats": [21, 13, 21, 15, 12],
-        "trait": "Avenger"
-    },
-    "King Frost": {
-        "inherits": "ice",
-        "item": "King Frost Hood",
-        "itemr": "King Frost Hood R",
-        "level": 61,
-        "arcana": "Emperor",
-        "elems": ["-", "-", "-", "ab", "-", "-", "-", "-", "nu", "-"],
-        "skills": {
-            "Bufudyne": 10,
-            "Ice Break": 10,
-            "Megaton Raid": 10,
-            "Freeze Boost": 62,
-            "Mabufudyne": 64,
-            "Concentrate": 65,
-            "Ice Amp": 67
-        },
-        "stats": [40, 44, 43, 29, 34],
-        "trait": "Ice Lineage"
+        "trait": "Avenger",
+        "personality" : "Gloomy",
+        "question" : "Me really want to eat something",
+        "a" : "Don't joke around",
+        "b" : "Just endure it",
+        "c" : "Want something delivered?",
+        "correct" : "a"
     },
     "Kodama": {
         "inherits": "ailment",
@@ -1439,52 +862,13 @@
             "Resist Fear": 17
         },
         "stats": [7, 11, 8, 10, 4],
-        "trait": "Chained Technique"
-    },
-    "Koh-i-Noor": {
-        "rare": true,
-        "inherits": "almighty",
-        "item": "Koh-i-Noor",
-        "itemr": "Koh-i-Noor R",
-        "level": 25,
-        "arcana": "Priestess",
-        "elems": ["rs", "wk", "-", "-", "-", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Dodge Fire": 10,
-            "Dodge Ice": 10,
-            "Dodge Wind": 10,
-            "Dodge Elec": 10,
-            "Dodge Psy": 10,
-            "Dodge Nuke": 10,
-            "Dodge Bless": 10,
-            "Dodge Curse": 10,
-            "Crisis Management": 10,
-            "Bloodshot Gaze": 10,
-            "Odd Immunity": 0
-        },
-        "stats": [25, 25, 25, 25, 25],
-        "trait": "Treasured Talent"
-    },
-    "Kohryu": {
-        "special": true,
-        "inherits": "psy",
-        "item": "Mapsiodyne Ring",
-        "itemr": "Psycho Force Ring",
-        "level": 76,
-        "arcana": "Hierophant",
-        "elems": ["-", "-", "-", "-", "rp", "-", "nu", "wk", "nu", "-"],
-        "skills": {
-            "Psycho Force": 10,
-            "Mediarahan": 10,
-            "Mapsiodyne": 10,
-            "Life Aid": 78,
-            "Concentrate": 79,
-            "Psy Amp": 80,
-            "Spell Master": 82
-        },
-        "stats": [43, 51, 50, 53, 38],
-        "trait": "Five Elements",
-        "max": true
+        "trait": "Chained Technique",
+        "personality" : "Upbeat",
+        "question" : "When you eat curry, mister, what do you like to add?",
+        "a" : "Soy sauce",
+        "b" : "Worcestershire sauce",
+        "c" : "I don't add anything",
+        "correct" : "b"
     },
     "Koppa Tengu": {
         "inherits": "wind",
@@ -1495,7 +879,13 @@
         "elems": ["-", "-", "-", "wk", "-", "rs", "-", "-", "wk", "-"],
         "skills": { "Garu": 10, "Sukukaja": 10, "Growth 1": 12, "Taunt": 13, "Rage Boost": 13, "Wage War": 15 },
         "stats": [7, 8, 8, 11, 6],
-        "trait": "Focused Gaze"
+        "trait": "Focused Gaze",
+        "personality" : "Upbeat",
+        "question" : "...So uh, instead of killin' me, you started chattin' with me... You tryin' to get somethin' from me?",
+        "a" : "Yup",
+        "b" : "No... Nothing at all...",
+        "c" : "You're too self-conscious",
+        "correct" : "c"
     },
     "Koropokkuru": {
         "inherits": "ice",
@@ -1514,26 +904,13 @@
             "Climate Decorum": 15
         },
         "stats": [5, 8, 6, 9, 6],
-        "trait": "Foul Contagion"
-    },
-    "Koumokuten": {
-        "inherits": "phys",
-        "item": "Regenerate 2",
-        "itemr": "Regenerate 3",
-        "level": 49,
-        "arcana": "Hermit",
-        "elems": ["rs", "-", "-", "wk", "-", "-", "-", "-", "rs", "-"],
-        "skills": {
-            "Assault Dive": 10,
-            "Regenerate 2": 10,
-            "Revolution": 10,
-            "Attack Master": 51,
-            "Ice Wall": 52,
-            "Enduring Soul": 54,
-            "Deadly Fury": 55
-        },
-        "stats": [37, 29, 34, 29, 25],
-        "trait": "Life Focus"
+        "trait": "Foul Contagion",
+        "personality" : "Timid",
+        "question" : "Y'know, if I'm gonna be killed, I'd rather be offed by some beautiful, classy woman",
+        "a" : "Sorry",
+        "b" : "You don't get to be picky",
+        "c" : "It's all the same",
+        "correct" : "a"
     },
     "Kumbhanda": {
         "inherits": "ailment",
@@ -1552,18 +929,13 @@
             "Revolution": 47
         },
         "stats": [25, 30, 25, 27, 26],
-        "trait": "Odd Immunity"
-    },
-    "Kurama Tengu": {
-        "inherits": "wind",
-        "item": "Garula Ring",
-        "itemr": "Magarula Ring",
-        "level": 31,
-        "arcana": "Hermit",
-        "elems": ["-", "-", "-", "nu", "-", "rp", "-", "-", "rs", "rs"],
-        "skills": { "Double Shot": 10, "Masukunda": 10, "Magarula": 10, "Wind Boost": 32, "Brain Jack": 34, "Growth 2": 36 },
-        "stats": [20, 19, 21, 24, 16],
-        "trait": "Chained Technique"
+        "trait": "Odd Immunity",
+        "personality" : "Irritable",
+        "question" : "Hey, if you got any medicine, lend me some. They're supposed ta work miracles, right...?",
+        "a" : "Are you OK?",
+        "b" : "What kind of medicine?",
+        "c" : "That won't change anything?",
+        "correct" : "c"
     },
     "Kushinada-Hime": {
         "inherits": "healing",
@@ -1583,57 +955,13 @@
             "Null Ice": 48
         },
         "stats": [24, 30, 26, 28, 25],
-        "trait": "Recovery Lineage"
-    },
-    "Kusi Mitama": {
-        "inherits": "healing",
-        "item": "Dia Charm",
-        "itemr": "Media Charm",
-        "level": 12,
-        "arcana": "Councillor",
-        "elems": ["-", "-", "wk", "-", "-", "rs", "-", "-", "-", "-"],
-        "skills": { "Dia": 10, "Media": 10, "Makajam": 10, "Regenerate 1": 13, "Wind Wall": 14, "Forget Boost": 16 },
-        "stats": [7, 11, 9, 8, 8],
-        "trait": "Life Focus"
-    },
-    "Lachesis": {
-        "inherits": "ice",
-        "item": "Bufula Ring",
-        "itemr": "Mabufula Ring",
-        "level": 35,
-        "arcana": "Fortune",
-        "elems": ["-", "-", "-", "nu", "wk", "rs", "-", "-", "-", "-"],
-        "skills": {
-            "Mabaisudi": 10,
-            "Bufula": 10,
-            "Growth 2": 10,
-            "Marakukaja": 36,
-            "Elec Wall": 37,
-            "Mabufula": 39,
-            "Ice Boost": 41
-        },
-        "stats": [18, 26, 22, 25, 21],
-        "trait": "Self Hypnosis"
-    },
-    "Lakshmi": {
-        "inherits": "healing",
-        "item": "Amrita Drop Charm",
-        "itemr": "Amrita Shower Charm",
-        "level": 69,
-        "arcana": "Fortune",
-        "elems": ["-", "-", "wk", "rs", "-", "-", "-", "-", "rs", "-"],
-        "skills": {
-            "Lullaby": 10,
-            "Diarahan": 10,
-            "Bufudyne": 10,
-            "Mediarahan": 70,
-            "Climate Decorum": 71,
-            "Amrita Shower": 72,
-            "Life Aid": 74
-        },
-        "stats": [39, 49, 41, 47, 38],
-        "trait": "Lotus Dance",
-        "max": true
+        "trait": "Recovery Lineage",
+        "personality" : "Upbeat",
+        "question" : "...Hey, there's no need for all this, right? Let's drop the drama and just go get something to eat. The thought has crossed your mind, hasn't it? Come on, where would you take me?",
+        "a" : "An expensive French restaurant",
+        "b" : "A busy ramen joint",
+        "c" : "A famous pancake place",
+        "correct" : "c"
     },
     "Lamia": {
         "inherits": "fire",
@@ -1652,7 +980,13 @@
             "Despair Boost": 31
         },
         "stats": [21, 15, 18, 19, 12],
-        "trait": "Foul Contagion"
+        "trait": "Foul Contagion",
+        "personality" : "Gloomy",
+        "question" : "I've been sending you serious don't speak to me vibes",
+        "a" : "I noticed",
+        "b" : "I didn't see any vibes",
+        "c" : "But we may never meet again...",
+        "correct" : "a"
     },
     "Leanan Sidhe": {
         "inherits": "almighty",
@@ -1663,26 +997,13 @@
         "elems": ["-", "-", "wk", "-", "-", "rs", "rs", "-", "-", "-"],
         "skills": { "Rakunda": 10, "Psio": 10, "Marin Karin": 20, "Mamudo": 21, "Mapsi": 22, "Eiga": 23 },
         "stats": [9, 17, 12, 16, 10],
-        "trait": "Exquisite Technique"
-    },
-    "Legion": {
-        "inherits": "psy",
-        "item": "Foul Breath",
-        "itemr": "Stagnant Air",
-        "level": 38,
-        "arcana": "Fool",
-        "elems": ["rs", "-", "rs", "-", "-", "-", "rs", "-", "wk", "nu"],
-        "skills": {
-            "Bloodbath": 10,
-            "Life Drain": 10,
-            "Evil Smile": 10,
-            "Foul Breath": 39,
-            "Tetra Break": 40,
-            "Null Dizzy": 42,
-            "Eigaon": 45
-        },
-        "stats": [24, 24, 30, 23, 20],
-        "trait": "Bloodsucker"
+        "trait": "Exquisite Technique",
+        "personality" : "Irritable",
+        "question" : "Tell me, what does equality mean to you?",
+        "a" : "Not talking down to people",
+        "b" : "Sharing household chores",
+        "c" : "Splitting all the costs",
+        "correct" : "a"
     },
     "Lilim": {
         "inherits": "ice",
@@ -1701,7 +1022,13 @@
             "Mabufula": 37
         },
         "stats": [17, 23, 18, 25, 20],
-        "trait": "Freezing Follow-up"
+        "trait": "Freezing Follow-up",
+        "personality" : "Gloomy",
+        "question" : "Hey mister, if I grew up, what do you think the future me would've been like",
+        "a" : "A fashionable older woman",
+        "b" : "A weathly housewife",
+        "c" : "Living in the darkness",
+        "correct" : "c"
     },
     "Lilith": {
         "inherits": "almighty",
@@ -1720,90 +1047,13 @@
             "Nuke Amp": 65
         },
         "stats": [33, 43, 37, 39, 35],
-        "trait": "Peerless Gaze"
-    },
-    "Loa": {
-        "inherits": "curse",
-        "item": "Ominous Words",
-        "itemr": "Abysmal Surge",
-        "level": 70,
-        "arcana": "Hermit",
-        "elems": ["-", "-", "rs", "-", "nu", "-", "wk", "rs", "wk", "-"],
-        "skills": {
-            "Mamudoon": 10,
-            "Abysmal Surge": 10,
-            "Life Drain": 10,
-            "Maeigaon": 72,
-            "Absorb Curse": 73,
-            "Spirit Drain": 74,
-            "Fortify Spirit": 75
-        },
-        "stats": [45, 47, 43, 46, 39],
-        "trait": "Bloodsucker",
-        "note": "Only available after 1/12"
-    },
-    "Lucifer": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Tyrant Pistol",
-        "itemr": "Tyrant Pistol R",
-        "level": 93,
-        "arcana": "Star",
-        "elems": ["nu", "nu", "rs", "rs", "rs", "rs", "-", "-", "wk", "ab"],
-        "skills": {
-            "Gigantomachia": 10,
-            "Absorb Curse": 10,
-            "Morning Star": 94,
-            "Spell Master": 95,
-            "Heat Riser": 96,
-            "Repel Bless": 97,
-            "Insta-Heal": 98,
-            "Absorb Phys": 99
-        },
-        "stats": [61, 59, 59, 56, 51],
-        "trait": "Forbidden Knowledge",
-        "max": true
-    },
-    "Macabre": {
-        "inherits": "curse",
-        "item": "Bloodbath",
-        "itemr": "Death Scythe",
-        "level": 73,
-        "arcana": "Hanged",
-        "elems": ["-", "-", "-", "-", "rs", "-", "-", "-", "wk", "nu"],
-        "skills": {
-            "Death Scythe": 10,
-            "Evil Smile": 10,
-            "Mamudoon": 10,
-            "Auto-Masuku": 74,
-            "Ghastly Wail": 75,
-            "Myriad Slashes": 76,
-            "Ali Dance": 78
-        },
-        "stats": [48, 49, 42, 48, 39],
-        "trait": "Pandemic Gaze",
-        "note": "Only available after 1/12"
-    },
-    "Mada": {
-        "inherits": "fire",
-        "item": "Maragidyne Ring",
-        "itemr": "Inferno Ring",
-        "level": 90,
-        "arcana": "Tower",
-        "elems": ["-", "-", "ab", "wk", "-", "-", "rs", "nu", "-", "-"],
-        "skills": {
-            "Inferno": 10,
-            "Fire Amp": 10,
-            "Burn Boost": 10,
-            "Fortify Spirit": 91,
-            "Blazing Hell": 92,
-            "Amrita Shower": 93,
-            "Enduring Soul": 95,
-            "Spell Master": 96
-        },
-        "stats": [55, 54, 61, 59, 48],
-        "trait": "Drunken Frenzy",
-        "max": true
+        "trait": "Peerless Gaze",
+        "personality" : "Timid",
+        "question" : "You know, if I were to whip something up for you, what would you want?",
+        "a" : "Meat and potatoes",
+        "b" : "I don't need homemade food",
+        "c" : "Can you actually cook",
+        "correct" : "c"
     },
     "Makami": {
         "inherits": "nuke",
@@ -1822,7 +1072,13 @@
             "Dodge Elec": 20
         },
         "stats": [13, 12, 8, 11, 8],
-        "trait": "Exquisite Technique"
+        "trait": "Exquisite Technique",
+        "personality" : "Upbeat",
+        "question" : "You go back to your mother' arms. You need take nap now.",
+        "a" : "I'm not that young",
+        "b" : "I'm not sleepy yet",
+        "c" : "Mom will wait till I'm done",
+        "correct" : "b"
     },
     "Mandrake": {
         "inherits": "elec",
@@ -1833,57 +1089,13 @@
         "elems": ["-", "-", "wk", "-", "rs", "-", "-", "-", "-", "-"],
         "skills": { "Pulinpa": 10, "Energy Drop": 10, "Lunge": 4, "Sukunda": 5, "Skull Cracker": 7 },
         "stats": [2, 3, 3, 4, 4],
-        "trait": "Recovery Lineage"
-    },
-    "Mara": {
-        "inherits": "psy",
-        "item": "Mapsiodyne",
-        "itemr": "Psycho Force",
-        "level": 73,
-        "arcana": "Tower",
-        "elems": ["-", "nu", "ab", "-", "-", "-", "rp", "-", "rs", "nu"],
-        "skills": {
-            "Mapsiodyne": 10,
-            "One-shot Kill": 10,
-            "Tetra Break": 10,
-            "Charge": 74,
-            "Brain Buster": 76,
-            "Psy Amp": 77,
-            "Psycho Force": 78
-        },
-        "stats": [51, 43, 43, 45, 44],
-        "trait": "Peerless Gaze"
-    },
-    "Maria": {
-        "inherits": "healing",
-        "item": "Mediarahan Charm",
-        "itemr": "Saintly Devotion Charm",
-        "level": 93,
-        "arcana": "Faith",
-        "elems": ["-", "-", "wk", "-", "rs", "nu", "-", "-", "ab", "-"],
-        "skills": {
-            "Invigorate 3": 10,
-            "Salvation": 10,
-            "Saintly Devotion": 10,
-            "Heat Riser": 94,
-            "Saintly Embrace": 95,
-            "Angelic Grace": 97,
-            "Saintly Words": 98
-        },
-        "stats": [52, 66, 53, 54, 61],
-        "trait": "Ave Maria",
-        "max": true
-    },
-    "Matador": {
-        "inherits": "psy",
-        "item": "Red Capote",
-        "itemr": "Red Capote R",
-        "level": 17,
-        "arcana": "Death",
-        "elems": ["-", "-", "-", "-", "wk", "nu", "-", "-", "-", "-"],
-        "skills": { "Psi": 10, "Null Dizzy": 10, "Sukukaja": 10, "Mapsi": 18, "Double Shot": 20, "Swift Strike": 22 },
-        "stats": [11, 13, 10, 16, 8],
-        "trait": "Group Hypnosis"
+        "trait": "Recovery Lineage",
+        "personality" : "Upbeat",
+        "question" : "We'll just say you win. So can we stop this?",
+        "a" : "I feel bad",
+        "b" : "I don't agree with this",
+        "c" : "We can say you won",
+        "correct" : "a"
     },
     "Melchizedek": {
         "inherits": "bless",
@@ -1902,86 +1114,13 @@
             "God's Hand": 65
         },
         "stats": [37, 32, 40, 39, 33],
-        "trait": "Deadly Plague"
-    },
-    "Metatron": {
-        "special": true,
-        "inherits": "bless",
-        "item": "Nataraja",
-        "itemr": "Nataraja R",
-        "level": 89,
-        "arcana": "Justice",
-        "elems": ["-", "-", "-", "-", "wk", "rp", "ab", "ab", "-", "wk"],
-        "skills": {
-            "Mahamaon": 10,
-            "Sword Dance": 10,
-            "Makougaon": 10,
-            "Megidolaon": 91,
-            "Hama Boost": 92,
-            "Concentrate": 93,
-            "Bless Amp": 94,
-            "Divine Judgement": 95
-        },
-        "stats": [54, 61, 60, 57, 42],
-        "trait": "Herald's Grace"
-    },
-    "Michael": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Judge of the Dead",
-        "itemr": "Judge of the Dead R",
-        "level": 87,
-        "arcana": "Judgement",
-        "elems": ["-", "rs", "-", "-", "-", "-", "-", "-", "rp", "nu"],
-        "skills": {
-            "Divine Judgement": 10,
-            "Mabufudyne": 10,
-            "Debilitate": 10,
-            "Sword Dance": 89,
-            "Mahamaon": 90,
-            "Megidolaon": 91,
-            "Cosmic Flare": 92
-        },
-        "stats": [57, 54, 55, 56, 46],
-        "trait": "Group Hypnosis"
-    },
-    "Mishaguji": {
-        "inherits": "ailment",
-        "item": "Mapsio Ring",
-        "itemr": "Psiodyne Ring",
-        "level": 52,
-        "arcana": "Hierophant",
-        "elems": ["rs", "-", "-", "wk", "nu", "-", "-", "-", "-", "ab"],
-        "skills": {
-            "Regenerate 3": 10,
-            "Brain Jack": 10,
-            "Psiodyne": 10,
-            "One-shot Kill": 54,
-            "Endure": 55,
-            "Deathbound": 56,
-            "Ailment Boost": 57
-        },
-        "stats": [32, 32, 32, 32, 35],
-        "trait": "Pandemic Gaze"
-    },
-    "Mithra": {
-        "inherits": "bless",
-        "item": "Death Contract",
-        "itemr": "Death Vow",
-        "level": 33,
-        "arcana": "Temperance",
-        "elems": ["-", "-", "-", "nu", "wk", "-", "-", "-", "nu", "-"],
-        "skills": {
-            "Kouga": 10,
-            "Mahama": 10,
-            "Diarama": 10,
-            "Makouga": 34,
-            "Dekunda": 35,
-            "Bless Boost": 37,
-            "Thermopylae": 38
-        },
-        "stats": [19, 26, 19, 24, 18],
-        "trait": "Bless Lineage"
+        "trait": "Deadly Plague",
+        "personality" : "Irritable",
+        "question" : "Therefore, I cannot be destroyed. Desist from this pointlessness.?",
+        "a" : "What are you talking about?",
+        "b" : "That's absurd",
+        "c" : "You're lying",
+        "correct" : "b"
     },
     "Mithras": {
         "inherits": "nuke",
@@ -2000,7 +1139,13 @@
             "Freidyne": 45
         },
         "stats": [27, 25, 27, 25, 20],
-        "trait": "Exquisite Technique"
+        "trait": "Exquisite Technique",
+        "personality" : "Gloomy",
+        "question" : "If I'd known things would end like this, I wish I had found the courage to ask that girl out...",
+        "a" : "Too late for regrets",
+        "b" : "You never had a chance",
+        "c" : "I'll make that girl happy",
+        "correct" : "b"
     },
     "Mokoi": {
         "inherits": "ailment",
@@ -2018,7 +1163,13 @@
             "Dekunda": 14
         },
         "stats": [9, 5, 6, 10, 4],
-        "trait": "Storm Born"
+        "trait": "Storm Born",
+        "personality" : "Gloomy",
+        "question" : "It's cliched, but we could chat about life... Ask each other things like what kind of girls we like...",
+        "a" : "I like older women",
+        "b" : "I like younger women",
+        "c" : "I like men",
+        "correct" : "a"
     },
     "Moloch": {
         "inherits": "fire",
@@ -2037,7 +1188,13 @@
             "Fire Amp": 65
         },
         "stats": [32, 45, 42, 31, 37],
-        "trait": "Iron Immunity"
+        "trait": "Iron Immunity",
+        "personality" : "Gloomy",
+        "question" : "What's wrong with the way I look, huh?",
+        "a" : "You tempt people",
+        "b" : "You're ugly",
+        "c" : "Nothing's wrong",
+        "correct" : "a"
     },
     "Mot": {
         "inherits": "ailment",
@@ -2055,27 +1212,13 @@
             "Repel Elec": 77
         },
         "stats": [43, 51, 48, 42, 39],
-        "trait": "Peerless Gaze"
-    },
-    "Mother Harlot": {
-        "inherits": "ice",
-        "item": "Claiomh Solais",
-        "itemr": "Claiomh Solais R",
-        "level": 85,
-        "arcana": "Empress",
-        "elems": ["-", "-", "-", "-", "rp", "-", "-", "-", "wk", "nu"],
-        "skills": {
-            "Mabufudyne": 10,
-            "Mamudoon": 10,
-            "Mudo Boost": 10,
-            "Ice Age": 86,
-            "Ice Amp": 87,
-            "Repel Bless": 88,
-            "Debilitate": 90
-        },
-        "stats": [55, 54, 48, 50, 55],
-        "trait": "Goblet of Sin",
-        "max": true
+        "trait": "Peerless Gaze",
+        "personality" : "Timid",
+        "question" : "If you capture me, what you going to do to me?",
+        "a" : "Eat you in a hot pot",
+        "b" : "Take you to a taxidermist",
+        "c" : "You'll be my new stylish coat",
+        "correct" : "b"
     },
     "Mothman": {
         "inherits": "elec",
@@ -2094,7 +1237,13 @@
             "Ziodyne": 38
         },
         "stats": [21, 24, 16, 24, 21],
-        "trait": "Shocking Follow-up"
+        "trait": "Shocking Follow-up",
+        "personality" : "Timid",
+        "question" : "So why me in this situation right now? Why me at your mercy?",
+        "a" : "Times have changed",
+        "b" : "Humans are powerful",
+        "c" : "This is a difficult topic...",
+        "correct" : "a"
     },
     "Naga": {
         "inherits": "elec",
@@ -2113,7 +1262,13 @@
             "Marakukaja": 29
         },
         "stats": [15, 17, 15, 17, 15],
-        "trait": "Heavyweight"
+        "trait": "Heavyweight",
+        "personality" : "Gloomy",
+        "question" : "As far as you're concerned, what kind of person was I to you?",
+        "a" : "My rival",
+        "b" : "Nobody, really",
+        "c" : "It doesn't matter",
+        "correct" : "c"
     },
     "Narcissus": {
         "inherits": "ailment",
@@ -2132,7 +1287,13 @@
             "Ambient Aid": 53
         },
         "stats": [27, 31, 29, 33, 31],
-        "trait": "Life Focus"
+        "trait": "Life Focus",
+        "personality" : "Timid",
+        "question" : "I mean, how does it feel to wave your gun at an enemy who's completely lost the will to fight?",
+        "a" : "It's not bad",
+        "b" : "...I could get used to it",
+        "c" : "It pains my heart...",
+        "correct" : "b"
     },
     "Nebiros": {
         "inherits": "curse",
@@ -2151,27 +1312,13 @@
             "Null Bless": 80
         },
         "stats": [45, 52, 44, 46, 42],
-        "trait": "Psy Lineage"
-    },
-    "Neko Shogun": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Catnap",
-        "itemr": "Catnap R",
-        "level": 30,
-        "arcana": "Star",
-        "elems": ["rs", "-", "-", "-", "rs", "wk", "-", "-", "nu", "rs"],
-        "skills": {
-            "Psio": 10,
-            "Diarama": 10,
-            "Masukukaja": 10,
-            "Invigorate 1": 31,
-            "Cornered Fang": 33,
-            "Defense Master": 35,
-            "Fortified Moxy": 36
-        },
-        "stats": [19, 20, 19, 21, 18],
-        "trait": "Last Stand"
+        "trait": "Psy Lineage",
+        "personality" : "Upbeat",
+        "question" : "The truth is... You're a good person, aren't you?",
+        "a" : "I get that a lot",
+        "b" : "Actually... I'm bad",
+        "c" : "Are you mocking me?",
+        "correct" : "a"
     },
     "Nekomata": {
         "inherits": "ailment",
@@ -2190,18 +1337,13 @@
             "Dodge Elec": 22
         },
         "stats": [13, 10, 12, 15, 8],
-        "trait": "Foul Contagion"
-    },
-    "Nigi Mitama": {
-        "inherits": "healing",
-        "item": "Kouha Ring",
-        "itemr": "Makouha Ring",
-        "level": 22,
-        "arcana": "Councillor",
-        "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "rs", "rs"],
-        "skills": { "Baisudi": 10, "Diarama": 10, "Makouha": 10, "Divine Grace": 24, "Me Patra": 25, "Climate Decorum": 26 },
-        "stats": [13, 15, 15, 16, 14],
-        "trait": "Support Lineage"
+        "trait": "Foul Contagion",
+        "personality" : "Upbeat",
+        "question" : "I lost. Here I lay, at your feet, at your mercy. Just what do you want from me?",
+        "a" : "Give me something",
+        "b" : "Grovel before me",
+        "c" : "I don't know",
+        "correct" : "a"
     },
     "Norn": {
         "inherits": "almighty",
@@ -2220,7 +1362,13 @@
             "Samarecarm": 57
         },
         "stats": [30, 38, 33, 34, 28],
-        "trait": "Focused Gaze"
+        "trait": "Focused Gaze",
+        "personality" : "Upbeat",
+        "question" : "Won't you just leave me be?",
+        "a" : "Are you busy?",
+        "b" : "I just couldn't",
+        "c" : "Is that reverse psychology?",
+        "correct" : "c"
     },
     "Nue": {
         "inherits": "curse",
@@ -2239,7 +1387,13 @@
             "Curse Boost": 26
         },
         "stats": [16, 10, 17, 14, 10],
-        "trait": "Peerless Gaze"
+        "trait": "Peerless Gaze",
+        "personality" : "Upbeat",
+        "question" : "There something you want say to me, right?",
+        "a" : "Don't scratch the furniture?",
+        "b" : "I'll housebreak you",
+        "c" : "Let me touch your paws?",
+        "correct" : "a"
     },
     "Obariyon": {
         "inherits": "phys",
@@ -2248,9 +1402,21 @@
         "level": 8,
         "arcana": "Fool",
         "elems": ["rs", "-", "-", "-", "wk", "-", "-", "-", "-", "-"],
-        "skills": { "Snap": 10, "Sukunda": 10, "Lucky Punch": 9, "Resist Fear": 10, "Dekaja": 12 },
+        "skills": { 
+            "Snap": 10, 
+            "Sukunda": 10, 
+            "Lucky Punch": 9, 
+            "Resist Fear": 10, 
+            "Dekaja": 12 
+        },
         "stats": [7, 3, 9, 8, 4],
-        "trait": "Heavyweight"
+        "trait": "Heavyweight",
+        "personality" : "Irritable",
+        "question" : "Aren't people as old as you s'posed to go dating, all the time? Can't you get some dates?",
+        "a" : "Right after this, kid",
+        "b" : "Such a rude little boy...",
+        "c" : "Dating's not important",
+        "correct" : "b"
     },
     "Oberon": {
         "inherits": "elec",
@@ -2270,67 +1436,13 @@
             "Elec Amp": 72
         },
         "stats": [40, 45, 42, 43, 35],
-        "trait": "Shocking Follow-up"
-    },
-    "Odin": {
-        "inherits": "elec",
-        "item": "Wild Hunt",
-        "itemr": "Gungnir",
-        "level": 84,
-        "arcana": "Emperor",
-        "elems": ["-", "-", "-", "-", "nu", "ab", "-", "-", "rp", "rp"],
-        "skills": {
-            "Thunder Reign": 10,
-            "Myriad Slashes": 10,
-            "Marakukaja": 10,
-            "Wild Thunder": 86,
-            "Concentrate": 87,
-            "Fast Heal": 88,
-            "Elec Amp": 89
-        },
-        "stats": [53, 58, 54, 52, 42],
-        "trait": "Hunting Premonition",
-        "max": true
-    },
-    "Okuninushi": {
-        "inherits": "psy",
-        "item": "Official's Robe",
-        "itemr": "Official's Robe R",
-        "level": 54,
-        "arcana": "Faith",
-        "elems": ["-", "-", "-", "-", "rp", "wk", "nu", "wk", "-", "-"],
-        "skills": {
-            "Mapsio": 10,
-            "Myriad Slashes": 10,
-            "Matarukaja": 10,
-            "Psy Boost": 55,
-            "Psy Break": 56,
-            "Evade Nuke": 57,
-            "Heat Wave": 59
-        },
-        "stats": [39, 35, 33, 32, 30],
-        "trait": "Psy Lineage"
-    },
-    "Ongyo-Ki": {
-        "special": true,
-        "inherits": "phys",
-        "item": "Myriad Slashes Belt",
-        "itemr": "Sword Dance Belt",
-        "level": 89,
-        "arcana": "Hermit",
-        "elems": ["rs", "-", "-", "-", "-", "-", "-", "-", "rp", "rp"],
-        "skills": {
-            "Myriad Slashes": 10,
-            "Makajamaon": 10,
-            "Pressing Stance": 10,
-            "Arms Master": 91,
-            "Regenerate 3": 92,
-            "Firm Stance": 93,
-            "Agneyastra": 95
-        },
-        "stats": [56, 53, 57, 59, 49],
-        "trait": "Oni Whisper",
-        "max": true
+        "trait": "Shocking Follow-up",
+        "personality" : "Irritable",
+        "question" : "If your parents could see you now, I'm sure it would break their hearts...",
+        "a" : "You might be right...",
+        "b" : "This doesn't involve them",
+        "c" : "Actually, they'd rejoice",
+        "correct" : "a"
     },
     "Oni": {
         "inherits": "phys",
@@ -2341,7 +1453,13 @@
         "elems": ["rs", "rs", "-", "-", "-", "-", "-", "-", "-", "-"],
         "skills": { "Rampage": 10, "Counter": 10, "Snap": 10, "Giant Slice": 22, "Sharp Student": 23, "Memory Blow": 24 },
         "stats": [19, 9, 17, 12, 10],
-        "trait": "Avenger"
+        "trait": "Avenger",
+        "personality" : "Upbeat",
+        "question" : "If yer gonna kill me, do me a solid and make it quick",
+        "a" : "Aren't you scared?",
+        "b" : "I'll have more fun first",
+        "c" : "Stop trying to act cool",
+        "correct" : "b"
     },
     "Onmoraki": {
         "inherits": "curse",
@@ -2352,55 +1470,13 @@
         "elems": ["-", "-", "rs", "wk", "-", "-", "-", "-", "wk", "nu"],
         "skills": { "Eiha": 10, "Ice Wall": 10, "Agi": 13, "Evil Touch": 14, "Pulinpa": 15, "Confuse Boost": 17 },
         "stats": [9, 12, 7, 10, 5],
-        "trait": "Focused Gaze"
-    },
-    "Orichalcum": {
-        "rare": true,
-        "inherits": "almighty",
-        "item": "Orichalcum",
-        "itemr": "Orichalcum R",
-        "level": 60,
-        "arcana": "Faith",
-        "elems": ["rs", "rs", "-", "-", "-", "-", "-", "-", "wk", "-"],
-        "skills": {
-            "Inferno": 10,
-            "Diamond Dust": 10,
-            "Panta Rhei": 10,
-            "Thunder Reign": 10,
-            "Psycho Force": 10,
-            "Atomic Flare": 10,
-            "Divine Judgement": 10,
-            "Demonic Decree": 10,
-            "Iron Immunity": 10,
-            "Spirit Focus": 10,
-            "Bless Lineage": 0
-        },
-        "stats": [60, 60, 60, 60, 60],
-        "trait": "Treasured Talent"
-    },
-    "Orlov": {
-        "rare": true,
-        "inherits": "almighty",
-        "item": "Orlov",
-        "itemr": "Orlov R",
-        "level": 30,
-        "arcana": "Strength",
-        "elems": ["rs", "rs", "-", "-", "-", "-", "-", "-", "-", "wk"],
-        "skills": {
-            "Maragion": 10,
-            "Mabufula": 10,
-            "Magarula": 10,
-            "Mazionga": 10,
-            "Mapsio": 10,
-            "Mafreila": 10,
-            "Makouga": 10,
-            "Maeiga": 10,
-            "Fire Lineage": 10,
-            "Elec Lineage": 10,
-            "Nuke Lineage": 0
-        },
-        "stats": [30, 30, 30, 30, 30],
-        "trait": "Treasured Talent"
+        "trait": "Focused Gaze",
+        "personality" : "Gloomy",
+        "question" : "I'm tired of being a kid. Didn't you feel that way when you were little, too?",
+        "a" : "Sure did",
+        "b" : "Not really",
+        "c" : "I want to be a kid forever",
+        "correct" : "a"
     },
     "Orobas": {
         "inherits": "fire",
@@ -2411,7 +1487,13 @@
         "elems": ["-", "-", "-", "wk", "-", "rs", "-", "-", "-", "rs"],
         "skills": { "Maragi": 10, "Sukukaja": 10, "Dekaja": 10, "Marakunda": 19, "Fire Break": 20, "Makajamaon": 21 },
         "stats": [11, 14, 15, 12, 6],
-        "trait": "Peerless Gaze"
+        "trait": "Timid",
+        "personality" : "Gloomy",
+        "question" : "You have no idea I was about to use my ultimate move",
+        "a" : "For real!?",
+        "b" : "That's worrying...",
+        "c" : "...Try me",
+        "correct" : "c"
     },
     "Orthrus": {
         "inherits": "fire",
@@ -2429,7 +1511,13 @@
             "Matarukaja": 26
         },
         "stats": [16, 14, 14, 19, 7],
-        "trait": "Burning Touch"
+        "trait": "Burning Touch",
+        "personality" : "Irritable",
+        "question" : "You given much thought, what if you go to place where you could die at any moment?",
+        "a" : "I've thought about it",
+        "b" : "I don't want kids",
+        "c" : "I'm not comfortable with this",
+        "correct" : "b"
     },
     "Ose": {
         "inherits": "ailment",
@@ -2447,26 +1535,13 @@
             "Heat Wave": 47
         },
         "stats": [32, 24, 25, 31, 21],
-        "trait": "Avenger"
-    },
-    "Pale Rider": {
-        "inherits": "curse",
-        "item": "Eigaon Ring",
-        "itemr": "Maeigaon Ring",
-        "level": 54,
-        "arcana": "Death",
-        "elems": ["-", "-", "-", "-", "-", "rs", "-", "-", "wk", "rp"],
-        "skills": {
-            "Abysmal Surge": 10,
-            "Eigaon": 10,
-            "Brain Shake": 10,
-            "Curse Boost": 55,
-            "Megidola": 56,
-            "Evade Bless": 58,
-            "Deathbound": 59
-        },
-        "stats": [32, 37, 33, 40, 27],
-        "trait": "Stagnant Aura"
+        "trait": "Avenger",
+        "personality" : "Upbeat",
+        "question" : "You're violatin' the weapons code or whatever, man",
+        "a" : "I didn't know",
+        "b" : "Not if no one finds out",
+        "c" : "Pretty cool, huh?",
+        "correct" : "b"
     },
     "Parvati": {
         "inherits": "psy",
@@ -2485,37 +1560,13 @@
             "Null Ice": 61
         },
         "stats": [33, 39, 33, 39, 31],
-        "trait": "Exquisite Technique"
-    },
-    "Pazuzu": {
-        "inherits": "curse",
-        "item": "Maeiga Ring",
-        "itemr": "Eigaon Ring",
-        "level": 45,
-        "arcana": "Devil",
-        "elems": ["-", "-", "-", "-", "-", "rs", "-", "-", "wk", "nu"],
-        "skills": {
-            "Maeiga": 10,
-            "Tentarafoo": 10,
-            "Mudoon": 10,
-            "Ambient Aid": 47,
-            "Evil Smile": 48,
-            "Stagnant Air": 49,
-            "Eigaon": 50
-        },
-        "stats": [29, 33, 27, 26, 27],
-        "trait": "Curse Lineage"
-    },
-    "Phoenix": {
-        "inherits": "nuke",
-        "item": "Miracle Dress",
-        "itemr": "Miracle Dress R",
-        "level": 21,
-        "arcana": "Faith",
-        "elems": ["-", "-", "-", "rs", "wk", "nu", "-", "-", "-", "-"],
-        "skills": { "Freila": 10, "Dream Needle": 10, "Diarama": 22, "Recarm": 23, "Nuke Boost": 25, "Mafreila": 26 },
-        "stats": [12, 15, 15, 17, 11],
-        "trait": "Nuke Lineage"
+        "trait": "Exquisite Technique",
+        "personality" : "Timid",
+        "question" : "Why have you decided to be more communicative with me?",
+        "a" : "Your looks",
+        "b" : "You seemed useful",
+        "c" : "No particular reason",
+        "correct" : "b"
     },
     "Pisaca": {
         "inherits": "curse",
@@ -2534,7 +1585,13 @@
             "Mudoon": 33
         },
         "stats": [19, 21, 21, 16, 14],
-        "trait": "Odd Immunity"
+        "trait": "Odd Immunity",
+        "personality" : "Gloomy",
+        "question" : "I know when I'm gettin' all sweaty. I'm glistenin', ain't I?",
+        "a" : "Like a disco ball",
+        "b" : "Not at all",
+        "c" : "Why does that matter",
+        "correct" : "c"
     },
     "Pixie": {
         "inherits": "elec",
@@ -2545,7 +1602,13 @@
         "elems": ["-", "wk", "-", "wk", "rs", "-", "-", "-", "rs", "wk"],
         "skills": { "Zio": 10, "Dia": 10, "Patra": 3, "Tarukaja": 4, "Resist Confuse": 5 },
         "stats": [1, 3, 3, 4, 2],
-        "trait": "Shocking Follow-up"
+        "trait": "Shocking Follow-up",
+        "personality" : "Gloomy",
+        "question" : "What do you think I should wear? I admit it, I wanna draw some attention to myself",
+        "a" : "High school uniform",
+        "b" : "Kimono",
+        "c" : "Don’t wear anything",
+        "correct" : "b"
     },
     "Power": {
         "inherits": "bless",
@@ -2564,26 +1627,13 @@
             "Null Curse": 46
         },
         "stats": [30, 26, 28, 25, 21],
-        "trait": "Self Hypnosis"
-    },
-    "Principality": {
-        "inherits": "bless",
-        "item": "Kouga Ring",
-        "itemr": "Makouga Ring",
-        "level": 29,
-        "arcana": "Justice",
-        "elems": ["-", "-", "rs", "-", "-", "-", "-", "-", "nu", "wk"],
-        "skills": {
-            "Makouga": 10,
-            "Makajamaon": 10,
-            "Tetraja": 10,
-            "Mediarama": 30,
-            "Forget Boost": 32,
-            "Bless Boost": 34,
-            "Mabaisudi": 35
-        },
-        "stats": [17, 19, 18, 21, 19],
-        "trait": "Bless Lineage"
+        "trait": "Self Hypnosis",
+        "personality" : "Irritable",
+        "question" : "To view me as an enemy is to incur our Father's wrath. Man's future rests in your hands",
+        "a" : "What are you trying to say?",
+        "b" : "You're exaggerating",
+        "c" : "That's pretty complicated",
+        "correct" : "b"
     },
     "Queen Mab": {
         "inherits": "almighty",
@@ -2602,69 +1652,13 @@
             "Concentrate": 48
         },
         "stats": [23, 35, 26, 30, 22],
-        "trait": "Shocking Follow-up"
-    },
-    "Queen's Necklace": {
-        "rare": true,
-        "inherits": "almighty",
-        "item": "Queen's Necklace",
-        "itemr": "Queen's Necklace R",
-        "level": 15,
-        "arcana": "Empress",
-        "elems": ["rs", "rs", "-", "-", "-", "-", "wk", "-", "-", "-"],
-        "skills": {
-            "Tarukaja": 10,
-            "Rakukaja": 10,
-            "Sukukaja": 10,
-            "Recarm": 10,
-            "Media": 10,
-            "Tarunda": 10,
-            "Rakunda": 10,
-            "Sukunda": 10,
-            "Group Hypnosis": 10,
-            "Support Lineage": 10,
-            "Recovery Lineage": 0
-        },
-        "stats": [15, 15, 15, 15, 15],
-        "trait": "Treasured Talent"
-    },
-    "Quetzalcoatl": {
-        "inherits": "wind",
-        "item": "Magarudyne",
-        "itemr": "Panta Rhei",
-        "level": 66,
-        "arcana": "Sun",
-        "elems": ["-", "-", "nu", "-", "-", "rs", "wk", "-", "-", "-"],
-        "skills": {
-            "Magarula": 10,
-            "Garudyne": 10,
-            "Memory Blow": 10,
-            "Growth 3": 68,
-            "Regenerate 3": 69,
-            "Magarudyne": 70,
-            "Wind Amp": 71
-        },
-        "stats": [41, 46, 41, 43, 34],
-        "trait": "Wind Lineage"
-    },
-    "Raja Naga": {
-        "inherits": "elec",
-        "item": "Ziodyne Ring",
-        "itemr": "Maziodyne Ring",
-        "level": 55,
-        "arcana": "Temperance",
-        "elems": ["-", "-", "-", "-", "nu", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Ziodyne": 10,
-            "Elec Break": 10,
-            "Tentarafoo": 10,
-            "Shock Boost": 57,
-            "Makarakarn": 58,
-            "Maziodyne": 59,
-            "Evade Wind": 60
-        },
-        "stats": [33, 37, 36, 35, 31],
-        "trait": "Elec Lineage"
+        "trait": "Shocking Follow-up",
+        "personality" : "Irritable",
+        "question" : "Ah, so I suppose you commit such extreme acts because you know you won't be punished harshly...",
+        "a" : "That's not true",
+        "b" : "Age doesn't matter",
+        "c" : "This isn't extreme",
+        "correct" : "b"
     },
     "Rakshasa": {
         "inherits": "phys",
@@ -2683,7 +1677,13 @@
             "Adverse Resolve": 30
         },
         "stats": [20, 15, 18, 17, 9],
-        "trait": "Chained Technique"
+        "trait": "Chained Technique",
+        "personality" : "Irritable",
+        "question" : "...Um, why're you going' for me? Ain't there worse people out there? What kind of guys piss you off?",
+        "a" : "Slow walkers",
+        "b" : "Loud talkers...",
+        "c" : "Nobody",
+        "correct" : "b"
     },
     "Rangda": {
         "inherits": "curse",
@@ -2694,100 +1694,13 @@
         "elems": ["rp", "rp", "nu", "-", "wk", "-", "-", "-", "wk", "nu"],
         "skills": { "Swift Strike": 10, "Bloodbath": 10, "Counterstrike": 10, "Eigaon": 49, "Matarunda": 51, "Mudoon": 53 },
         "stats": [28, 34, 30, 33, 26],
-        "trait": "Curse Lineage"
-    },
-    "Raphael": {
-        "inherits": "almighty",
-        "item": "Null Bless",
-        "itemr": "Repel Bless",
-        "level": 78,
-        "arcana": "Lovers",
-        "elems": ["-", "-", "-", "ab", "-", "-", "nu", "-", "nu", "-"],
-        "skills": {
-            "Sword Dance": 10,
-            "Charge": 10,
-            "Dekaja": 10,
-            "Heat Riser": 80,
-            "Growth 3": 81,
-            "Adverse Resolve": 82,
-            "Arms Master": 83
-        },
-        "stats": [57, 45, 49, 55, 35],
-        "trait": "Last Stand"
-    },
-    "Red Rider": {
-        "inherits": "psy",
-        "item": "Psio Ring",
-        "itemr": "Mapsio Ring",
-        "level": 41,
-        "arcana": "Tower",
-        "elems": ["-", "-", "-", "-", "-", "-", "-", "-", "wk", "nu"],
-        "skills": {
-            "Rising Slash": 10,
-            "Psy Break": 10,
-            "Mapsio": 10,
-            "Negative Pile": 42,
-            "Despair Boost": 44,
-            "Ominous Words": 45,
-            "Pressing Stance": 46
-        },
-        "stats": [26, 27, 25, 29, 23],
-        "trait": "Pandemic Gaze"
-    },
-    "Regent": {
-        "rare": true,
-        "inherits": "almighty",
-        "item": "Regent",
-        "itemr": "Regent R",
-        "level": 10,
-        "arcana": "Emperor",
-        "elems": ["rs", "rs", "-", "-", "-", "-", "-", "wk", "-", "-"],
-        "skills": {
-            "Maragi": 10,
-            "Mabufu": 10,
-            "Magaru": 10,
-            "Mazio": 10,
-            "Mapsi": 10,
-            "Mafrei": 10,
-            "Makouha": 10,
-            "Maeiha": 10,
-            "Peerless Gaze": 10,
-            "Exquisite Technique": 10,
-            "Chained Technique": 0
-        },
-        "stats": [10, 10, 10, 10, 10],
-        "trait": "Treasured Talent"
-    },
-    "Saki Mitama": {
-        "inherits": "healing",
-        "item": "Energy Drop Charm",
-        "itemr": "Energy Shower Charm",
-        "level": 6,
-        "arcana": "Lovers",
-        "elems": ["-", "-", "-", "rs", "-", "wk", "-", "-", "-", "-"],
-        "skills": { "Bufu": 10, "Energy Drop": 10, "Wind Wall": 10, "Growth 1": 7, "Rakukaja": 8, "Resist Dizzy": 10 },
-        "stats": [4, 6, 5, 6, 4],
-        "trait": "Self Hypnosis"
-    },
-    "Sandalphon": {
-        "inherits": "bless",
-        "item": "Sword of Sinai",
-        "itemr": "Sword of Sinai R",
-        "level": 75,
-        "arcana": "Moon",
-        "elems": ["rs", "rs", "-", "-", "-", "-", "-", "-", "rp", "nu"],
-        "skills": {
-            "Mahamaon": 10,
-            "Samarecarm": 10,
-            "Amrita Shower": 10,
-            "Angelic Grace": 77,
-            "Repel Curse": 78,
-            "Sword Dance": 79,
-            "Megidolaon": 81
-        },
-        "stats": [46, 51, 49, 48, 38],
-        "trait": "Herald's Verdict",
-        "max": true
+        "trait": "Curse Lineage",
+        "personality" : "Gloomy",
+        "question" : "When I was young, I could make anyone back off - if they were smart enough - with just my glare",
+        "a" : "Fights are just luck",
+        "b" : "I'm just that good",
+        "c" : "You've grown old",
+        "correct" : "a"
     },
     "Sandman": {
         "inherits": "wind",
@@ -2806,7 +1719,13 @@
             "Sleep Boost": 28
         },
         "stats": [11, 13, 14, 17, 21],
-        "trait": "Foul Contagion"
+        "trait": "Foul Contagion",
+        "personality" : "Irritable",
+        "question" : "I coulda been a star...",
+        "a" : "A star?",
+        "b" : "That's never happening",
+        "c" : "Are you giving up",
+        "correct" : "c"
     },
     "Sarasvati": {
         "inherits": "healing",
@@ -2825,50 +1744,13 @@
             "Diarahan": 54
         },
         "stats": [30, 35, 32, 33, 27],
-        "trait": "Support Lineage"
-    },
-    "Satan": {
-        "inherits": "ice",
-        "item": "Tantric Oath",
-        "itemr": "Tantric Oath R",
-        "level": 92,
-        "arcana": "Judgement",
-        "elems": ["-", "rs", "-", "rp", "-", "-", "-", "-", "-", "rp"],
-        "skills": {
-            "Diamond Dust": 10,
-            "Ice Age": 10,
-            "Regenerate 3": 10,
-            "Black Viper": 94,
-            "Invigorate 3": 95,
-            "Fortify Spirit": 96,
-            "Concentrate": 97,
-            "Absorb Ice": 98
-        },
-        "stats": [62, 59, 55, 52, 55],
-        "trait": "Cocytus",
-        "max": true
-    },
-    "Satanael": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Paradise Lost",
-        "itemr": "Paradise Lost R",
-        "level": 95,
-        "arcana": "Fool",
-        "elems": ["rs", "rs", "rs", "rs", "rs", "rs", "rs", "rs", "nu", "ab"],
-        "skills": {
-            "Maeigaon": 10,
-            "Megidolaon": 10,
-            "Survival Trick": 10,
-            "Riot Gun": 10,
-            "Black Viper": 96,
-            "Heat Riser": 97,
-            "Demon Kingdom": 98,
-            "Victory Cry": 99
-        },
-        "stats": [63, 60, 57, 56, 56],
-        "trait": "Heretic Charisma",
-        "note": "Only available on NG+"
+        "trait": "Support Lineage",
+        "personality" : "Timid",
+        "question" : "I wonder if us speaking together like this now means that we are somehow connected...",
+        "a" : "Eh, could be",
+        "b" : "No, I don't think so",
+        "c" : "It's what we call destiny",
+        "correct" : "a"
     },
     "Scathach": {
         "inherits": "wind",
@@ -2887,74 +1769,13 @@
             "Attack Master": 82
         },
         "stats": [48, 52, 46, 48, 44],
-        "trait": "Exquisite Technique"
-    },
-    "Seiryu": {
-        "inherits": "ice",
-        "item": "Bufudyne Ring",
-        "itemr": "Mabufudyne Ring",
-        "level": 62,
-        "arcana": "Councillor",
-        "elems": ["-", "-", "-", "rs", "-", "-", "-", "wk", "-", "-"],
-        "skills": {
-            "Bufudyne": 10,
-            "Diarahan": 10,
-            "Marakukaja": 10,
-            "Repel Nuke": 63,
-            "Mabufudyne": 65,
-            "Amrita Drop": 66,
-            "Makarakarn": 67
-        },
-        "stats": [38, 41, 43, 37, 34],
-        "trait": "Relentlessness"
-    },
-    "Setanta": {
-        "inherits": "phys",
-        "item": "Rebellion Ring",
-        "itemr": "Revolution Ring",
-        "level": 25,
-        "arcana": "Emperor",
-        "elems": ["-", "rs", "-", "-", "-", "-", "wk", "rs", "-", "-"],
-        "skills": { "Giant Slice": 10, "Dormin Rush": 10, "Counter": 10, "Charge": 27, "Rebellion": 29, "Rising Slash": 30 },
-        "stats": [19, 16, 18, 13, 16],
-        "trait": "Avenger"
-    },
-    "Seth": {
-        "special": true,
-        "inherits": "fire",
-        "item": "Triple Down Belt",
-        "itemr": "One-shot Kill Belt",
-        "level": 51,
-        "arcana": "Tower",
-        "elems": ["-", "-", "rp", "-", "-", "nu", "-", "-", "wk", "rs"],
-        "skills": {
-            "One-shot Kill": 10,
-            "Agidyne": 10,
-            "Masukukaja": 10,
-            "Cripple": 53,
-            "Fire Break": 54,
-            "Fortify Spirit": 56
-        },
-        "stats": [32, 35, 30, 35, 28],
-        "trait": "Group Hypnosis"
-    },
-    "Shiisaa": {
-        "inherits": "elec",
-        "item": "Double Fangs",
-        "itemr": "Cornered Fang",
-        "level": 15,
-        "arcana": "Strength",
-        "elems": ["rs", "-", "-", "-", "-", "-", "wk", "-", "nu", "wk"],
-        "skills": {
-            "Double Fangs": 10,
-            "Skull Cracker": 10,
-            "Frei": 10,
-            "Dodge Curse": 16,
-            "Rampage": 17,
-            "Dodge Elec": 19
-        },
-        "stats": [10, 11, 11, 11, 9],
-        "trait": "Nuke Lineage"
+        "trait": "Exquisite Technique",
+        "personality" : "Upbeat",
+        "question" : "Ah, so I suppose you commit such extreme acts because you know you won't be punished harshly...",
+        "a" : "That's not true",
+        "b" : "Age doesn't matter",
+        "c" : "This isn't extreme",
+        "correct" : "c"
     },
     "Shiki-Ouji": {
         "inherits": "psy",
@@ -2973,46 +1794,13 @@
             "Oni Kagura": 24
         },
         "stats": [16, 14, 12, 9, 10],
-        "trait": "Psy Lineage"
-    },
-    "Shiva": {
-        "special": true,
-        "inherits": "psy",
-        "item": "Megido Fire",
-        "itemr": "Megido Buster",
-        "level": 82,
-        "arcana": "Judgement",
-        "elems": ["-", "-", "-", "nu", "rp", "-", "ab", "wk", "nu", "nu"],
-        "skills": {
-            "Psycho Force": 10,
-            "Maziodyne": 10,
-            "Enduring Soul": 10,
-            "Riot Gun": 85,
-            "Megidolaon": 86,
-            "Auto-Mataru": 87,
-            "Psycho Blast": 88
-        },
-        "stats": [55, 54, 53, 53, 38],
-        "trait": "Psy Lineage"
-    },
-    "Siegfried": {
-        "inherits": "phys",
-        "item": "Vorpal Blade Belt",
-        "itemr": "Brave Blade Belt",
-        "level": 84,
-        "arcana": "Faith",
-        "elems": ["nu", "rs", "-", "rs", "nu", "-", "-", "wk", "-", "-"],
-        "skills": {
-            "Brave Blade": 10,
-            "Masukukaja": 10,
-            "High Counter": 10,
-            "Charge": 85,
-            "Apt Pupil": 87,
-            "Vorpal Blade": 89,
-            "Auto-Mataru": 90
-        },
-        "stats": [61, 43, 55, 55, 45],
-        "trait": "Avenger"
+        "trait": "Psy Lineage",
+        "personality" : "Irritable",
+        "question" : "So me am going to haunt you for the rest of your life. Me always right behind you...",
+        "a" : "That would be troublesome",
+        "b" : "I could carry that weight",
+        "c" : "I wouldn't like that",
+        "correct" : "c"
     },
     "Silky": {
         "inherits": "healing",
@@ -3023,7 +1811,13 @@
         "elems": ["-", "-", "wk", "rs", "wk", "-", "-", "-", "-", "-"],
         "skills": { "Dormina": 10, "Bufu": 10, "Dia": 7, "Patra": 9, "Sharp Student": 10 },
         "stats": [4, 7, 4, 5, 5],
-        "trait": "Focused Gaze"
+        "trait": "Focused Gaze",
+        "personality" : "Gloomy",
+        "question" : "...I'm not going to go easy on you for doing something like this, you know...",
+        "a" : "I'm sorry",
+        "b" : "Prepare for the worst",
+        "c" : "How much do you want",
+        "correct" : "c"
     },
     "Skadi": {
         "inherits": "ice",
@@ -3042,7 +1836,13 @@
             "Spirit Drain": 58
         },
         "stats": [33, 39, 32, 34, 28],
-        "trait": "Bloodshot Gaze"
+        "trait": "Bloodshot Gaze",
+        "personality" : "Timid",
+        "question" : "They wear sleeveless shirts in the winter, right? What do you think about that, dearie?",
+        "a" : "I like it",
+        "b" : "They miss seasonal changes",
+        "c" : "I don't care",
+        "correct" : "b"
     },
     "Slime": {
         "inherits": "curse",
@@ -3053,51 +1853,13 @@
         "elems": ["rs", "rs", "wk", "-", "-", "wk", "-", "-", "-", "-"],
         "skills": { "Lunge": 10, "Evil Touch": 10, "Tarunda": 11, "Fire Wall": 13, "Headbutt": 14 },
         "stats": [9, 6, 11, 6, 5],
-        "trait": "Odd Immunity"
-    },
-    "Sraosha": {
-        "special": true,
-        "inherits": "bless",
-        "item": "Archangel Bra",
-        "itemr": "Archangel Bra R",
-        "level": 80,
-        "arcana": "Star",
-        "elems": ["-", "-", "-", "-", "ab", "-", "-", "-", "rp", "wk"],
-        "skills": {
-            "Kougaon": 10,
-            "Mahamaon": 10,
-            "Hama Boost": 10,
-            "Makougaon": 81,
-            "Angelic Grace": 83,
-            "Amrita Shower": 84,
-            "Debilitate": 85
-        },
-        "stats": [47, 56, 45, 56, 43],
-        "trait": "Bless Lineage"
-    },
-    "Stone of Scone": {
-        "rare": true,
-        "inherits": "almighty",
-        "item": "Stone of Scone",
-        "itemr": "Stone of Scone R",
-        "level": 20,
-        "arcana": "Fortune",
-        "elems": ["rs", "rs", "wk", "-", "-", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Agilao": 10,
-            "Bufula": 10,
-            "Garula": 10,
-            "Zionga": 10,
-            "Psio": 10,
-            "Freila": 10,
-            "Kouga": 10,
-            "Eiga": 10,
-            "Relentlessness": 10,
-            "Life Focus": 10,
-            "Focused Gaze": 0
-        },
-        "stats": [20, 20, 20, 20, 20],
-        "trait": "Treasured Talent"
+        "trait": "Odd Immunity",
+        "personality" : "Timid",
+        "question" : "Me want to ask some recommendations, so me can at least imagine",
+        "a" : "Bread dipped in coffee",
+        "b" : "Ice cream off the carton lid",
+        "c" : "Hunger is the best spice",
+        "correct" : "a"
     },
     "Succubus": {
         "inherits": "curse",
@@ -3108,7 +1870,13 @@
         "elems": ["-", "-", "rs", "-", "-", "wk", "-", "-", "wk", "nu"],
         "skills": { "Dormina": 10, "Rebellion": 10, "Agi": 8, "Dekaja": 10, "Sleep Boost": 11, "Mudo": 12 },
         "stats": [4, 7, 5, 8, 4],
-        "trait": "Foul Contagion"
+        "trait": "Foul Contagion",
+        "personality" : "Irritable",
+        "question" : "I'll go out with you just for today if there are no strings attached",
+        "a" : "If it pleases you",
+        "b" : "No strings attached",
+        "c" : "I've got enough on my plate...",
+        "correct" : "a"
     },
     "Sudama": {
         "inherits": "psy",
@@ -3127,7 +1895,13 @@
             "Psio": 23
         },
         "stats": [9, 14, 12, 13, 10],
-        "trait": "Storm Born"
+        "trait": "Storm Born",
+        "personality" : "Timid",
+        "question" : "Where do babies come from?",
+        "a" : "Storks deliver them",
+        "b" : "Ask your parents",
+        "c" : "The love between two people",
+        "correct" : "a"
     },
     "Sui-Ki": {
         "inherits": "ice",
@@ -3146,45 +1920,13 @@
             "Dodge Fire": 29
         },
         "stats": [16, 15, 15, 18, 15],
-        "trait": "Ice Lineage"
-    },
-    "Surt": {
-        "inherits": "fire",
-        "item": "Maragidyne",
-        "itemr": "Inferno",
-        "level": 83,
-        "arcana": "Magician",
-        "elems": ["-", "rs", "ab", "wk", "nu", "-", "-", "rs", "-", "-"],
-        "skills": {
-            "Blazing Hell": 10,
-            "Attack Master": 10,
-            "Brave Blade": 10,
-            "Fire Amp": 84,
-            "Marakunda": 85,
-            "Evade Ice": 86,
-            "Gigantomachia": 88
-        },
-        "stats": [55, 54, 51, 50, 46],
-        "trait": "Fire Lineage"
-    },
-    "Suzaku": {
-        "inherits": "nuke",
-        "item": "Frei Ring",
-        "itemr": "Mafrei Ring",
-        "level": 16,
-        "arcana": "Sun",
-        "elems": ["-", "-", "ab", "wk", "-", "-", "-", "rs", "-", "-"],
-        "skills": {
-            "Frei": 10,
-            "Tarunda": 10,
-            "Marin Karin": 10,
-            "Dekunda": 18,
-            "Mafrei": 19,
-            "Speed Master": 20,
-            "Matarunda": 21
-        },
-        "stats": [9, 12, 10, 15, 9],
-        "trait": "Life Focus"
+        "trait": "Ice Lineage",
+        "personality" : "Gloomy",
+        "question" : "So who're you tryin' to impress with that mask?",
+        "a" : "Nobody",
+        "b" : "Shuddup...",
+        "c" : "I'm actually still young...",
+        "correct" : "a"
     },
     "Take-Minakata": {
         "inherits": "elec",
@@ -3203,46 +1945,13 @@
             "Shock Boost": 32
         },
         "stats": [17, 19, 18, 16, 15],
-        "trait": "Elec Lineage"
-    },
-    "Tam Lin": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Genma Armor",
-        "itemr": "Genma Armor R",
-        "level": 27,
-        "arcana": "Faith",
-        "elems": ["rs", "-", "nu", "-", "-", "rs", "-", "-", "ab", "wk"],
-        "skills": {
-            "Assault Dive": 10,
-            "Brain Shake": 10,
-            "Rebellion": 10,
-            "Sharp Student": 28,
-            "Brain Buster": 30,
-            "Brainwash Boost": 31,
-            "Heat Up": 32
-        },
-        "stats": [21, 16, 18, 16, 17],
-        "trait": "Life Focus"
-    },
-    "Thor": {
-        "inherits": "elec",
-        "item": "Mjolnir",
-        "itemr": "Mjolnir R",
-        "level": 64,
-        "arcana": "Chariot",
-        "elems": ["rs", "-", "-", "-", "nu", "-", "-", "-", "rs", "rs"],
-        "skills": {
-            "Ziodyne": 10,
-            "Megaton Raid": 10,
-            "High Counter": 10,
-            "Elec Amp": 66,
-            "Maziodyne": 67,
-            "Heat Up": 68,
-            "Wild Thunder": 71
-        },
-        "stats": [44, 39, 43, 38, 35],
-        "trait": "Focused Gaze"
+        "trait": "Elec Lineage",
+        "personality" : "Gloomy",
+        "question" : "You knocked me down, and now my goddamn watch is broken!",
+        "a" : "Sorry...",
+        "b" : "Not my problem",
+        "c" : "Don't lie",
+        "correct" : "a"
     },
     "Thoth": {
         "inherits": "nuke",
@@ -3261,37 +1970,13 @@
             "Growth 2": 42
         },
         "stats": [21, 28, 21, 24, 21],
-        "trait": "Exquisite Technique"
-    },
-    "Throne": {
-        "inherits": "bless",
-        "item": "Makougaon Ring",
-        "itemr": "Divine Judgement Ring",
-        "level": 72,
-        "arcana": "Justice",
-        "elems": ["-", "-", "nu", "-", "-", "nu", "-", "wk", "rp", "-"],
-        "skills": {
-            "Agidyne": 10,
-            "Hamaon": 10,
-            "Burn Boost": 10,
-            "Fire Amp": 74,
-            "Makougaon": 75,
-            "Invigorate 3": 76,
-            "Inferno": 78
-        },
-        "stats": [42, 49, 43, 46, 43],
-        "trait": "Crisis Management"
-    },
-    "Thunderbird": {
-        "inherits": "elec",
-        "item": "Elec Boost",
-        "itemr": "Elec Amp",
-        "level": 34,
-        "arcana": "Sun",
-        "elems": ["-", "-", "-", "-", "ab", "-", "wk", "-", "-", "wk"],
-        "skills": { "Mazionga": 10, "Tarukaja": 10, "Shock Boost": 10, "Rebellion": 35, "Ziodyne": 37, "Elec Boost": 38 },
-        "stats": [17, 24, 24, 26, 18],
-        "trait": "Elec Lineage"
+        "trait": "Exquisite Technique",
+        "personality" : "Gloomy",
+        "question" : "Why you fight and put yourself in harm's way?",
+        "a" : "I want to get stronger",
+        "b" : "Because I see an enemy",
+        "c" : "I don't actually know",
+        "correct" : "c"
     },
     "Titania": {
         "inherits": "nuke",
@@ -3302,27 +1987,13 @@
         "elems": ["-", "-", "-", "-", "-", "-", "wk", "rs", "rs", "rs"],
         "skills": { "Freidyne": 10, "Ziodyne": 10, "Lullaby": 10, "Concentrate": 59, "Nuke Amp": 60, "Mediarahan": 61 },
         "stats": [32, 40, 35, 38, 30],
-        "trait": "Stagnant Aura"
-    },
-    "Trumpeter": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Freidyne Ring",
-        "itemr": "Mafreidyne Ring",
-        "level": 59,
-        "arcana": "Judgement",
-        "elems": ["-", "-", "-", "ab", "rp", "-", "-", "-", "rp", "nu"],
-        "skills": {
-            "Mafreidyne": 10,
-            "Abysmal Surge": 10,
-            "Brain Buster": 10,
-            "Fortify Spirit": 61,
-            "Cripple": 62,
-            "Life Aid": 63,
-            "Debilitate": 65
-        },
-        "stats": [33, 42, 40, 38, 31],
-        "trait": "Relentlessness"
+        "trait": "Stagnant Aura",
+        "personality" : "Gloomy",
+        "question" : "I suppose this real world where you come from must be fairly boring",
+        "a" : "It's really boring",
+        "b" : "I'm always so busy there",
+        "c" : "It's better than here",
+        "correct" : "b"
     },
     "Unicorn": {
         "inherits": "bless",
@@ -3341,26 +2012,13 @@
             "Hamaon": 44
         },
         "stats": [20, 27, 25, 28, 24],
-        "trait": "Bless Lineage"
-    },
-    "Uriel": {
-        "inherits": "almighty",
-        "item": "Heaven's Gate",
-        "itemr": "Providence",
-        "level": 81,
-        "arcana": "Justice",
-        "elems": ["-", "-", "nu", "-", "-", "-", "-", "ab", "rp", "-"],
-        "skills": {
-            "Deathbound": 10,
-            "Myriad Slashes": 10,
-            "Bloodbath": 10,
-            "Repel Nuke": 83,
-            "Megidolaon": 84,
-            "Angelic Grace": 85,
-            "Spell Master": 86
-        },
-        "stats": [50, 54, 49, 55, 42],
-        "trait": "Spirit Focus"
+        "trait": "Bless Lineage",
+        "personality" : "Timid",
+        "question" : "You not worry you get in trouble if those groups hear what you are doing to me?",
+        "a" : "You're right",
+        "b" : "I don't care",
+        "c" : "You're not an animal",
+        "correct" : "b"
     },
     "Valkyrie": {
         "inherits": "phys",
@@ -3378,88 +2036,13 @@
             "Dodge Physical": 49
         },
         "stats": [33, 24, 28, 29, 25],
-        "trait": "Chained Technique"
-    },
-    "Vasuki": {
-        "special": true,
-        "inherits": "ailment",
-        "item": "Kuzuryu Gouhou",
-        "itemr": "Kuzuryu Gouhou R",
-        "level": 68,
-        "arcana": "Star",
-        "elems": ["-", "-", "-", "nu", "nu", "-", "-", "-", "-", "wk"],
-        "skills": {
-            "Mahamaon": 10,
-            "Brain Jack": 10,
-            "Triple Down": 10,
-            "Trigger Happy": 70,
-            "Makarakarn": 71,
-            "Brainwash Boost": 72,
-            "Null Curse": 73
-        },
-        "stats": [42, 45, 44, 42, 38],
-        "trait": "Stagnant Aura"
-    },
-    "Vishnu": {
-        "inherits": "almighty",
-        "item": "Sudarshana",
-        "itemr": "Sudarshana R",
-        "level": 83,
-        "arcana": "Fool",
-        "elems": ["-", "-", "wk", "ab", "-", "-", "-", "-", "nu", "nu"],
-        "skills": {
-            "Megidolaon": 10,
-            "Magarudyne": 10,
-            "Ali Dance": 10,
-            "Vacuum Wave": 85,
-            "Concentrate": 86,
-            "Repel Fire": 87,
-            "Wind Amp": 88,
-            "Riot Gun": 90
-        },
-        "stats": [56, 51, 49, 57, 43],
-        "trait": "Vahana",
-        "max": true
-    },
-    "Vohu Manah": {
-        "inherits": "almighty",
-        "item": "Doomsday",
-        "itemr": "Ancient of Days",
-        "level": 80,
-        "arcana": "Councillor",
-        "elems": ["-", "-", "-", "-", "rs", "wk", "-", "-", "ab", "nu"],
-        "skills": {
-            "Divine Judgement": 10,
-            "Bless Amp": 10,
-            "Makougaon": 10,
-            "Absorb Bless": 82,
-            "Fortify Spirit": 83,
-            "Invigorate 3": 84,
-            "Salvation": 85
-        },
-        "stats": [46, 59, 45, 56, 41],
-        "trait": "Enlightenment",
-        "max": true
-    },
-    "White Rider": {
-        "inherits": "curse",
-        "item": "Snipe",
-        "itemr": "Cripple",
-        "level": 38,
-        "arcana": "Chariot",
-        "elems": ["-", "-", "nu", "wk", "-", "-", "-", "-", "nu", "rp"],
-        "skills": {
-            "Triple Down": 10,
-            "Evil Touch": 10,
-            "Oni Kagura": 10,
-            "Snipe": 40,
-            "Maeiga": 41,
-            "Masukukaja": 42,
-            "Foul Breath": 43,
-            "Ailment Boost": 44
-        },
-        "stats": [22, 21, 26, 27, 25],
-        "trait": "Bloodshot Gaze"
+        "trait": "Chained Technique",
+        "personality" : "Irritable",
+        "question" : "I insist you surrender yourself to the authorities",
+        "a" : "This is a misunderstanding",
+        "b" : "I don't have the time",
+        "c" : "You've got the wrong idea",
+        "correct" : "a"
     },
     "Yaksini": {
         "inherits": "ice",
@@ -3477,7 +2060,13 @@
             "Vicious Strike": 24
         },
         "stats": [14, 11, 13, 16, 13],
-        "trait": "Foul Contagion"
+        "trait": "Foul Contagion",
+        "personality" : "Irritable",
+        "question" : "I've heard that love can bloom anywhere, even on a battlefield. Don't you think that's possible?",
+        "a" : "Can it?",
+        "b" : "Definitely not",
+        "c" : "What are you saying?",
+        "correct" : "b"
     },
     "Yamata-no-Orochi": {
         "inherits": "ice",
@@ -3495,610 +2084,12 @@
             "Diamond Dust": 69
         },
         "stats": [44, 38, 48, 36, 33],
-        "trait": "Freezing Follow-up"
-    },
-    "Yatagarasu": {
-        "inherits": "fire",
-        "item": "Black Wing Robe",
-        "itemr": "Black Wing Robe R",
-        "level": 57,
-        "arcana": "Councillor",
-        "elems": ["-", "-", "-", "-", "-", "rs", "-", "-", "nu", "wk"],
-        "skills": {
-            "Agidyne": 10,
-            "Makara Break": 10,
-            "Dekunda": 10,
-            "Mediarahan": 59,
-            "Pressing Stance": 60,
-            "Wind Break": 61,
-            "Null Wind": 64
-        },
-        "stats": [35, 41, 30, 40, 32],
-        "trait": "Group Hypnosis"
-    },
-    "Yoshitsune": {
-        "special": true,
-        "inherits": "phys",
-        "item": "Usumidori",
-        "itemr": "Usumidori R",
-        "level": 87,
-        "arcana": "Tower",
-        "elems": ["nu", "-", "rs", "-", "rp", "-", "-", "-", "rp", "-"],
-        "skills": {
-            "Brave Blade": 10,
-            "Charge": 10,
-            "Ziodyne": 10,
-            "Pressing Stance": 89,
-            "Fast Heal": 90,
-            "Elec Amp": 92,
-            "Hassou Tobi": 94
-        },
-        "stats": [63, 52, 50, 54, 49],
-        "trait": "Avenger"
-    },
-    "Yurlungur": {
-        "inherits": "elec",
-        "item": "Mirrirmina",
-        "itemr": "Mirrirmina R",
-        "level": 43,
-        "arcana": "Sun",
-        "elems": ["-", "-", "-", "-", "nu", "-", "wk", "-", "rs", "-"],
-        "skills": {
-            "Brain Jack": 10,
-            "Mazionga": 10,
-            "Megidola": 10,
-            "Revolution": 45,
-            "Elec Break": 46,
-            "Tetra Break": 48,
-            "Elec Boost": 49
-        },
-        "stats": [26, 29, 30, 27, 24],
-        "trait": "Spirit Focus"
-    },
-    "Zaou-Gongen": {
-        "inherits": "fire",
-        "item": "God's Hand Belt",
-        "itemr": "Gigantomachia Belt",
-        "level": 80,
-        "arcana": "Strength",
-        "elems": ["-", "-", "rp", "-", "wk", "-", "-", "-", "nu", "nu"],
-        "skills": {
-            "Maragidyne": 10,
-            "Abysmal Surge": 10,
-            "God's Hand": 10,
-            "Evade Physical": 82,
-            "Enduring Soul": 83,
-            "Cripple": 84,
-            "Blazing Hell": 86
-        },
-        "stats": [57, 45, 50, 56, 39],
-        "trait": "Apocalyptic Fury",
-        "max": true
-    },
-    "Zouchouten": {
-        "inherits": "elec",
-        "item": "Zionga Ring",
-        "itemr": "Mazionga Ring",
-        "level": 31,
-        "arcana": "Strength",
-        "elems": ["rs", "-", "-", "-", "-", "wk", "-", "-", "-", "-"],
-        "skills": {
-            "Kill Rush": 10,
-            "Zionga": 10,
-            "Terror Claw": 32,
-            "Sharp Student": 33,
-            "Resist Fear": 34,
-            "Swift Strike": 35,
-            "Attack Master": 36
-        },
-        "stats": [22, 19, 24, 18, 17],
-        "trait": "Elec Lineage"
-    },
-    "Ariadne": {
-        "inherits": "almighty",
-        "item": "Red Yarn Ball",
-        "itemr": "Red Yarn Ball R",
-        "level": 30,
-        "arcana": "Fortune",
-        "elems": ["-", "rs", "-", "-", "-", "-", "wk", "nu", "rs", "-"],
-        "skills": {
-            "Beast Weaver": 10,
-            "Apt Pupil": 10,
-            "Miracle Punch": 10,
-            "Attack Master": 31,
-            "Fortified Moxy": 32,
-            "Evade Physical": 34,
-            "Charge": 36
-        },
-        "stats": [23, 19, 20, 17, 18],
-        "trait": "Offered Hand",
-        "dlc": true
-    },
-    "Ariadne Picaro": {
-        "inherits": "almighty",
-        "item": "Auto-Mataru",
-        "itemr": "Auto-Maraku",
-        "level": 42,
-        "arcana": "Fortune",
-        "elems": ["-", "rs", "-", "-", "-", "-", "wk", "nu", "rs", "-"],
-        "skills": {
-            "Beast Weaver": 10,
-            "Apt Pupil": 10,
-            "Miracle Punch": 10,
-            "Auto-Mataru": 43,
-            "Heat Up": 44,
-            "Evade Physical": 46,
-            "Charge": 48
-        },
-        "stats": [36, 23, 29, 24, 21],
-        "trait": "Offered Hand",
-        "dlc": true
-    },
-    "Asterius": {
-        "inherits": "almighty",
-        "item": "Thunder Horns",
-        "itemr": "Thunder Horns R",
-        "level": 56,
-        "arcana": "Fortune",
-        "elems": ["-", "-", "rs", "wk", "-", "-", "rs", "-", "-", "nu"],
-        "skills": {
-            "Titanomachia": 10,
-            "Maragidyne": 10,
-            "Burn Boost": 10,
-            "Auto-Mataru": 57,
-            "Fire Amp": 59,
-            "Tetrakarn": 60,
-            "Gigantomachia": 62
-        },
-        "stats": [43, 43, 32, 32, 25],
-        "trait": "Charging Bull",
-        "dlc": true
-    },
-    "Asterius Picaro": {
-        "inherits": "almighty",
-        "item": "Gigantomachia",
-        "itemr": "Agneyastra",
-        "level": 62,
-        "arcana": "Fortune",
-        "elems": ["-", "-", "rs", "wk", "-", "-", "rs", "-", "-", "nu"],
-        "skills": {
-            "Titanomachia": 10,
-            "Maragidyne": 10,
-            "Burn Boost": 10,
-            "Auto-Masuku": 63,
-            "Fire Amp": 65,
-            "Makarakarn": 66,
-            "Gigantomachia": 68
-        },
-        "stats": [46, 46, 36, 36, 29],
-        "trait": "Charging Bull",
-        "dlc": true
-    },
-    "Athena": {
-        "inherits": "almighty",
-        "item": "Kugelbein",
-        "itemr": "Kugelbein R",
-        "level": 46,
-        "arcana": "Chariot",
-        "elems": ["rs", "nu", "-", "-", "wk", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Akasha Arts": 10,
-            "Marakukaja": 10,
-            "Rising Slash": 10,
-            "Diarahan": 47,
-            "Matarukaja": 48,
-            "Auto-Maraku": 50,
-            "Samarecarm": 51,
-            "Megaton Raid": 52
-        },
-        "stats": [33, 27, 29, 29, 27],
-        "trait": "Olive Grace",
-        "dlc": true
-    },
-    "Athena Picaro": {
-        "inherits": "almighty",
-        "item": "Charge",
-        "itemr": "Concentrate",
-        "level": 50,
-        "arcana": "Chariot",
-        "elems": ["rs", "nu", "-", "-", "wk", "-", "-", "-", "-", "-"],
-        "skills": {
-            "Akasha Arts": 10,
-            "Matarukaja": 10,
-            "Rising Slash": 10,
-            "Diarahan": 51,
-            "Marakukaja": 52,
-            "Auto-Mataru": 54,
-            "Samarecarm": 55,
-            "Megaton Raid": 56
-        },
-        "stats": [35, 30, 31, 32, 29],
-        "trait": "Olive Grace",
-        "dlc": true
-    },
-    "Izanagi": {
-        "inherits": "almighty",
-        "item": "White Headband",
-        "itemr": "White Headband R",
-        "level": 20,
-        "arcana": "Fool",
-        "elems": ["-", "-", "-", "-", "rs", "wk", "-", "-", "-", "nu"],
-        "skills": {
-            "Cross Slash": 10,
-            "Zionga": 10,
-            "Tarukaja": 10,
-            "Rising Slash": 21,
-            "Dodge Physical": 22,
-            "Mazionga": 24,
-            "Growth 3": 25
-        },
-        "stats": [14, 13, 13, 14, 13],
-        "trait": "Divine Ceremony",
-        "dlc": true
-    },
-    "Izanagi Picaro": {
-        "inherits": "almighty",
-        "item": "Growth 2",
-        "itemr": "Growth 3",
-        "level": 23,
-        "arcana": "Fool",
-        "elems": ["-", "-", "-", "-", "nu", "wk", "-", "-", "-", "nu"],
-        "skills": {
-            "Cross Slash": 10,
-            "Zionga": 10,
-            "Rakukaja": 10,
-            "Rising Slash": 24,
-            "Null Phys": 25,
-            "Mazionga": 27,
-            "Growth 3": 28
-        },
-        "stats": [16, 15, 15, 16, 14],
-        "trait": "Divine Ceremony",
-        "dlc": true
-    },
-    "Izanagi-no-Okami": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Bright Headband",
-        "itemr": "Bright Headband R",
-        "level": 80,
-        "arcana": "World",
-        "elems": ["rs", "rs", "rs", "rs", "rs", "rs", "rs", "rs", "-", "-"],
-        "skills": {
-            "Myriad Truths": 10,
-            "Victory Cry": 10,
-            "Angelic Grace": 10,
-            "Concentrate": 81,
-            "Heat Riser": 82,
-            "Heat Up": 83,
-            "Salvation": 84
-        },
-        "stats": [52, 56, 46, 48, 45],
-        "trait": "Creation Ceremony",
-        "dlc": true
-    },
-    "Izanagi-no-Okami Picaro": {
-        "special": true,
-        "inherits": "almighty",
-        "item": "Mediarahan",
-        "itemr": "Salvation",
-        "level": 89,
-        "arcana": "World",
-        "elems": ["rs", "rs", "rs", "rs", "rs", "rs", "rs", "rs", "-", "-"],
-        "skills": {
-            "Myriad Truths": 10,
-            "Victory Cry": 10,
-            "Angelic Grace": 10,
-            "Concentrate": 90,
-            "Debilitate": 91,
-            "Enduring Soul": 92,
-            "Salvation": 93
-        },
-        "stats": [54, 61, 56, 58, 45],
-        "trait": "Creation Ceremony",
-        "dlc": true
-    },
-    "Kaguya": {
-        "inherits": "almighty",
-        "item": "Moonlight Robe",
-        "itemr": "Moonlight Robe R",
-        "level": 16,
-        "arcana": "Moon",
-        "elems": ["-", "-", "wk", "-", "-", "rs", "-", "-", "nu", "nu"],
-        "skills": {
-            "Shining Arrows": 10,
-            "Mediarama": 10,
-            "Counterstrike": 10,
-            "Divine Grace": 17,
-            "Amrita Shower": 18,
-            "Diarahan": 21,
-            "Repel Phys": 22
-        },
-        "stats": [11, 15, 12, 11, 6],
-        "trait": "Untouchable Beauty",
-        "dlc": true
-    },
-    "Kaguya Picaro": {
-        "inherits": "almighty",
-        "item": "Diarahan",
-        "itemr": "Mediarahan",
-        "level": 25,
-        "arcana": "Moon",
-        "elems": ["-", "-", "wk", "-", "-", "-", "-", "-", "nu", "nu"],
-        "skills": {
-            "Shining Arrows": 10,
-            "Mediarama": 10,
-            "High Counter": 10,
-            "Divine Grace": 26,
-            "Amrita Shower": 27,
-            "Diarahan": 30,
-            "Repel Phys": 31
-        },
-        "stats": [17, 20, 19, 15, 11],
-        "trait": "Untouchable Beauty",
-        "dlc": true
-    },
-    "Magatsu-Izanagi": {
-        "inherits": "almighty",
-        "item": "Black Headband",
-        "itemr": "Black Headband R",
-        "level": 44,
-        "arcana": "Tower",
-        "elems": ["-", "rs", "-", "-", "-", "-", "-", "wk", "nu", "nu"],
-        "skills": {
-            "Magatsu Mandala": 10,
-            "Megidola": 10,
-            "Ghastly Wail": 10,
-            "Maziodyne": 45,
-            "Bloodbath": 46,
-            "Attack Master": 48,
-            "Heat Riser": 50
-        },
-        "stats": [37, 35, 32, 25, 10],
-        "trait": "Hollow Fool",
-        "dlc": true
-    },
-    "Magatsu-Izanagi Picaro": {
-        "inherits": "almighty",
-        "item": "Heat Riser",
-        "itemr": "Debilitate",
-        "level": 48,
-        "arcana": "Tower",
-        "elems": ["-", "rs", "-", "-", "-", "-", "-", "wk", "nu", "nu"],
-        "skills": {
-            "Magatsu Mandala": 10,
-            "Megidola": 10,
-            "Ghastly Wail": 10,
-            "Magarudyne": 49,
-            "Bloodbath": 50,
-            "Speed Master": 52,
-            "Heat Riser": 54
-        },
-        "stats": [40, 38, 35, 27, 11],
-        "trait": "Hollow Fool",
-        "dlc": true
-    },
-    "Messiah": {
-        "inherits": "almighty",
-        "item": "Lucifer Guard",
-        "itemr": "Lucifer Guard R",
-        "level": 81,
-        "arcana": "Judgement",
-        "elems": ["-", "-", "rs", "rs", "rs", "rs", "rs", "rs", "rp", "wk"],
-        "skills": {
-            "Oratorio": 10,
-            "Megidolaon": 10,
-            "God's Hand": 10,
-            "Regenerate 3": 82,
-            "Enduring Soul": 83,
-            "Invigorate 3": 84,
-            "Absorb Phys": 85,
-            "Almighty Boost": 87
-        },
-        "stats": [50, 50, 50, 50, 50],
-        "trait": "Offered Soul",
-        "dlc": true
-    },
-    "Messiah Picaro": {
-        "inherits": "almighty",
-        "item": "Insta-Heal",
-        "itemr": "Firm Stance",
-        "level": 90,
-        "arcana": "Judgement",
-        "elems": ["-", "-", "rs", "rs", "rs", "rs", "rs", "rs", "rp", "wk"],
-        "skills": {
-            "Oratorio": 10,
-            "Megidolaon": 10,
-            "Agneyastra": 10,
-            "Insta-Heal": 91,
-            "Enduring Soul": 92,
-            "Life Aid": 93,
-            "Firm Stance": 94,
-            "Almighty Boost": 96
-        },
-        "stats": [56, 56, 55, 55, 55],
-        "trait": "Offered Soul",
-        "dlc": true
-    },
-    "Orpheus": {
-        "inherits": "almighty",
-        "item": "Hades Harp",
-        "itemr": "Hades Harp R",
-        "level": 26,
-        "arcana": "Fool",
-        "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "rs", "wk"],
-        "skills": {
-            "Cadenza": 10,
-            "Agilao": 10,
-            "Tarunda": 10,
-            "Endure": 27,
-            "Maragion": 29,
-            "Marakukaja": 30,
-            "Fire Boost": 32
-        },
-        "stats": [17, 17, 17, 17, 17],
-        "trait": "Cycle of Sorrow",
-        "dlc": true
-    },
-    "Orpheus F": {
-        "inherits": "almighty",
-        "item": "Graceful Harp",
-        "itemr": "Graceful Harp R",
-        "level": 11,
-        "arcana": "Fool",
-        "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "rs", "wk"],
-        "skills": {
-            "Neo Cadenza": 10,
-            "Agi": 10,
-            "Tarunda": 10,
-            "Endure": 10,
-            "Maragion": 12,
-            "Marakukaja": 14,
-            "Dodge Curse": 15
-        },
-        "stats": [8, 9, 8, 9, 6],
-        "trait": "Cycle of Sorrow",
-        "dlc": true
-    },
-    "Orpheus F Picaro": {
-        "inherits": "almighty",
-        "item": "Endure",
-        "itemr": "Enduring Soul",
-        "level": 13,
-        "arcana": "Fool",
-        "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "rs", "wk"],
-        "skills": {
-            "Neo Cadenza": 10,
-            "Maragi": 10,
-            "Rakunda": 10,
-            "Endure": 10,
-            "Agilao": 14,
-            "Marakukaja": 16,
-            "Dodge Curse": 17
-        },
-        "stats": [9, 11, 9, 10, 7],
-        "trait": "Cycle of Sorrow",
-        "dlc": true
-    },
-    "Orpheus Picaro": {
-        "inherits": "almighty",
-        "item": "Agidyne",
-        "itemr": "Maragidyne",
-        "level": 29,
-        "arcana": "Fool",
-        "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "rs", "wk"],
-        "skills": {
-            "Cadenza": 10,
-            "Maragion": 10,
-            "Matarunda": 10,
-            "Endure": 30,
-            "Agidyne": 32,
-            "Matarukaja": 33,
-            "Fire Boost": 35
-        },
-        "stats": [19, 19, 19, 19, 19],
-        "trait": "Cycle of Sorrow",
-        "dlc": true
-    },
-    "Raoul": {
-        "inherits": "almighty",
-        "item": "Phantom Hat",
-        "itemr": "Trickster Hat",
-        "level": 76,
-        "arcana": "Fool",
-        "elems": ["-", "-", "-", "-", "-", "-", "-", "-", "wk", "nu"],
-        "skills": {
-            "Phantom Show": 10,
-            "Eigaon": 10,
-            "Ali Dance": 10,
-            "Maeigaon": 78,
-            "Heat Riser": 79,
-            "Curse Amp": 80,
-            "Concentrate": 81,
-            "Life Aid": 82
-        },
-        "stats": [47, 49, 43, 54, 42],
-        "trait": "Hidden Presence",
-        "dlc": true
-    },
-    "Thanatos": {
-        "inherits": "almighty",
-        "item": "Darkness Ring",
-        "itemr": "Darkness Ring R",
-        "level": 65,
-        "arcana": "Death",
-        "elems": ["rs", "-", "-", "-", "-", "-", "-", "-", "wk", "rp"],
-        "skills": {
-            "Door of Hades": 10,
-            "Maeigaon": 10,
-            "Mamudoon": 10,
-            "Curse Amp": 66,
-            "One-shot Kill": 68,
-            "Fortified Moxy": 69,
-            "Enduring Soul": 70
-        },
-        "stats": [43, 49, 41, 38, 31],
-        "trait": "Iron Heart",
-        "dlc": true
-    },
-    "Thanatos Picaro": {
-        "inherits": "almighty",
-        "item": "Maeigaon",
-        "itemr": "Demonic Decree",
-        "level": 69,
-        "arcana": "Death",
-        "elems": ["rs", "-", "-", "-", "-", "-", "-", "-", "wk", "rp"],
-        "skills": {
-            "Door of Hades": 10,
-            "Maeigaon": 10,
-            "Mamudoon": 10,
-            "Mudo Boost": 70,
-            "One-shot Kill": 72,
-            "Adverse Resolve": 73,
-            "Enduring Soul": 74
-        },
-        "stats": [45, 51, 43, 40, 35],
-        "trait": "Iron Heart",
-        "dlc": true
-    },
-    "Tsukiyomi": {
-        "inherits": "almighty",
-        "item": "Black Moon",
-        "itemr": "Black Moon R",
-        "level": 50,
-        "arcana": "Moon",
-        "elems": ["rs", "-", "-", "-", "-", "-", "-", "wk", "rs", "rp"],
-        "skills": {
-            "Abyssal Wings": 10,
-            "Absorb Curse": 10,
-            "Myriad Slashes": 10,
-            "Life Drain": 10,
-            "Curse Amp": 53,
-            "Vorpal Blade": 55,
-            "Arms Master": 56
-        },
-        "stats": [38, 32, 33, 37, 17],
-        "trait": "Tree of Life",
-        "dlc": true
-    },
-    "Tsukiyomi Picaro": {
-        "inherits": "almighty",
-        "item": "Spell Master",
-        "itemr": "Arms Master",
-        "level": 55,
-        "arcana": "Moon",
-        "elems": ["rs", "-", "-", "-", "-", "-", "-", "wk", "rs", "rp"],
-        "skills": {
-            "Abyssal Wings": 10,
-            "Absorb Curse": 10,
-            "Myriad Slashes": 10,
-            "Spirit Drain": 10,
-            "Curse Amp": 58,
-            "Vorpal Blade": 60,
-            "Spell Master": 61
-        },
-        "stats": [41, 35, 36, 40, 20],
-        "trait": "Tree of Life",
-        "dlc": true
+        "trait": "Freezing Follow-up",
+        "personality" : "Gloomy",
+        "question" : "It look like you corner me... But how me know this not trick? How me know you really winning?",
+        "a" : "It doesn't change the facts?",
+        "b" : "I never tell lies",
+        "c" : "Don't try to escape reality?",
+        "correct" : "c"
     }
 }

@@ -3,11 +3,12 @@ const mongoose = require('mongoose');
 const User = mongoose.model('users');
 const { randomEmbeded } = require('./embededRandomUtil');
 const { infoEmbeded } = require('./infoUtils');
+const { showEmbeded } = require('./showUtils');
 const { help } = require('../commands/help');
 
 module.exports = {
-	messageUtils : (message) => {
-		if(message.content == 'p!encounter') {
+	messageUtils : async (message) => {
+		if(message.content.startsWith('p!')) {
 			User.findOne({ id: message.author.id })
 				.then((user)=> {
 					if (user == null) {
@@ -17,16 +18,19 @@ module.exports = {
 
 						newUser.save()
 							.then(() => {
-								message.channel.send('You\'re now in the database yayyyyy');
+								message.channel.send('```Seems like this is you\'re first time using our Velvet Room. We went ahead and registered your soul 👻.```');
 							})
 							.catch((err) => console.log(err));
 
 					}
 				})
 				.catch((err) => console.log(err));
+		}
+
+		if(message.content == 'p!encounter') {
 
 			try{
-				message.channel.send(randomEmbeded());
+				message.channel.send(randomEmbeded(message.guild.id));
 			}
 			catch {
 				message.channel.send('```No one appeared```');
@@ -43,6 +47,15 @@ module.exports = {
 		}
 		else if(message.content == 'p!help') {
 			message.channel.send(help());
+		}
+		else if (message.content == 'p!show') {
+			try {
+				message.channel.send(await showEmbeded(message.guild.id));
+			}
+			catch (err) {
+				message.channel.send('```The Velvet Room is having some difficulties```');
+				console.log(err);
+			}
 		}
 	},
 };
