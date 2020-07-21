@@ -7,7 +7,7 @@ const Server = mongoose.model('servers');
 
 
 module.exports = {
-	randomEmbeded : (serverId) => {
+	randomEmbeded : async (serverId) => {
 		const persona = random();
 		let photoIndex = persona;
 		photoIndex = photoIndex.split(' ').join('');
@@ -27,7 +27,11 @@ module.exports = {
 			.setImage('https://storage.googleapis.com/persona-discord-bot/' + photoIndex + '.png')
 			.setTimestamp();
 
-		Server.findOne({ id: serverId })
+		await Server.deleteOne({ id: serverId })
+			.catch((err) => console.log(err));
+
+
+		await Server.findOne({ id: serverId })
 			.then((server)=> {
 				if (server == null) {
 					const newServer = new Server({

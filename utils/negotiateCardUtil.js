@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const Server = mongoose.model('servers');
 
 
-module.exports.showEmbeded =
+module.exports.negotiateCard =
 
 	async (serverId) => {
 		let persona = '';
@@ -41,17 +41,14 @@ module.exports.showEmbeded =
 		const personaEmbeded = new Discord.MessageEmbed()
 			.setColor('#0099ff')
 			.setTitle(persona)
-			.setDescription('')
+			.setDescription(metadata.question)
 			.addFields(
-				{ name: 'Level:', value: metadata.level, inline: true },
-				{ name: 'Arcana', value: metadata.arcana, inline: true },
-				{ name: 'Trait', value: metadata.trait, inline: true },
+				{ name: '(a)', value: metadata.a },
+				{ name: '(b)', value: metadata.b },
+				{ name: '(c)', value: metadata.c },
 			)
 			.addFields(
-				{ name: 'Inherits:', value: metadata.inherits, inline: true },
-				{ name: 'Item:', value: metadata.item, inline: true },
-				{ name: 'ItemR', value: metadata.itemr, inline: true },
-				{ name: 'Skills:', value: skills, inline: true },
+				{ name: 'How to reply:', value: 'Respond with p!negotiate [a or b or c] \n (i.e "p!negotiate a")' },
 			)
 			.setImage('https://storage.googleapis.com/persona-discord-bot/' + photoIndex + '.png')
 			.setTimestamp();

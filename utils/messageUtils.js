@@ -5,6 +5,9 @@ const { randomEmbeded } = require('./embededRandomUtil');
 const { infoEmbeded } = require('./infoUtils');
 const { showEmbeded } = require('./showUtils');
 const { help } = require('../commands/help');
+const { negotiateCard } = require('./negotiateCardUtil');
+const { negotiateUtil } = require('./negotiateUtil');
+const { personasUtil } = require('./personasUtil');
 
 module.exports = {
 	messageUtils : async (message) => {
@@ -30,7 +33,7 @@ module.exports = {
 		if(message.content == 'p!encounter') {
 
 			try{
-				message.channel.send(randomEmbeded(message.guild.id));
+				message.channel.send(await randomEmbeded(message.guild.id));
 			}
 			catch {
 				message.channel.send('```No one appeared```');
@@ -51,6 +54,34 @@ module.exports = {
 		else if (message.content == 'p!show') {
 			try {
 				message.channel.send(await showEmbeded(message.guild.id));
+			}
+			catch (err) {
+				message.channel.send('```The Velvet Room is having some difficulties```');
+				console.log(err);
+			}
+		}
+		else if(message.content == 'p!negotiate') {
+			try {
+				message.channel.send(await negotiateCard(message.guild.id));
+			}
+			catch (err) {
+				message.channel.send('```The Velvet Room is having some difficulties```');
+				console.log(err);
+			}
+		}
+		else if(message.content.startsWith('p!negotiate')) {
+			try {
+
+				message.channel.send(await negotiateUtil(message.guild.id, message.author.id, message.content));
+			}
+			catch (err) {
+				message.channel.send('```The Velvet Room is having some difficulties```');
+				console.log(err);
+			}
+		}
+		else if(message.content == 'p!personas') {
+			try {
+				message.channel.send(await personasUtil(message.author.id));
 			}
 			catch (err) {
 				message.channel.send('```The Velvet Room is having some difficulties```');

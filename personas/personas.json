@@ -158,6 +158,7 @@
         "question" : "I am the rebel's soul that resides within you. If you so desire, I shall consider granting you the power to break through this crisis.",
         "a" : "Give me your power",
         "b" : "I don't want to die",
+        "c" : "...",
         "correct" : "a",
         "response" : "Hmph, very well... This power of mine is yours!"
     },
@@ -986,23 +987,6 @@
         "a" : "I noticed",
         "b" : "I didn't see any vibes",
         "c" : "But we may never meet again...",
-        "correct" : "a"
-    },
-    "Leanan Sidhe": {
-        "inherits": "almighty",
-        "item": "Mudo",
-        "itemr": "Mamudo",
-        "level": 19,
-        "arcana": "Lovers",
-        "elems": ["-", "-", "wk", "-", "-", "rs", "rs", "-", "-", "-"],
-        "skills": { "Rakunda": 10, "Psio": 10, "Marin Karin": 20, "Mamudo": 21, "Mapsi": 22, "Eiga": 23 },
-        "stats": [9, 17, 12, 16, 10],
-        "trait": "Exquisite Technique",
-        "personality" : "Irritable",
-        "question" : "Tell me, what does equality mean to you?",
-        "a" : "Not talking down to people",
-        "b" : "Sharing household chores",
-        "c" : "Splitting all the costs",
         "correct" : "a"
     },
     "Lilim": {
