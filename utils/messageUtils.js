@@ -8,6 +8,7 @@ const { help } = require('../commands/help');
 const { negotiateCard } = require('./negotiateCardUtil');
 const { negotiateUtil } = require('./negotiateUtil');
 const { personasUtil } = require('./personasUtil');
+const { resetUtil } = require('./resetUtil');
 
 module.exports = {
 	messageUtils : async (message) => {
@@ -82,6 +83,15 @@ module.exports = {
 		else if(message.content == 'p!personas') {
 			try {
 				message.channel.send(await personasUtil(message.author.id));
+			}
+			catch (err) {
+				message.channel.send('```The Velvet Room is having some difficulties```');
+				console.log(err);
+			}
+		}
+		else if(message.content == 'p!reset') {
+			try {
+				message.channel.send(await resetUtil(message.author.id));
 			}
 			catch (err) {
 				message.channel.send('```The Velvet Room is having some difficulties```');

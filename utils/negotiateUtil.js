@@ -63,7 +63,7 @@ module.exports.negotiateUtil =
 		}
 		else {
 			response += persona + ' didn\'t seem to like your answer \n\n';
-			response += 'Negotiation was unsuccesful.. Try again';
+			response += 'Negotiation was unsuccessful.. Try again';
 		}
 
 		let photoIndex = persona;
