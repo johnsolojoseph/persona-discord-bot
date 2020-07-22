@@ -1,13 +1,12 @@
 const Discord = require('discord.js');
-const personas = require('../personas/personas.json');
+const personas = require('../data/personas.json');
 require('../models/Server');
 const mongoose = require('mongoose');
 const Server = mongoose.model('servers');
 
 
-module.exports.negotiateCard =
-
-	async (serverId) => {
+module.exports = {
+	showNegotiation : async (serverId) => {
 		let persona = '';
 		await Server.findOne({ id: serverId })
 			.then((server) => {
@@ -55,4 +54,5 @@ module.exports.negotiateCard =
 
 		return personaEmbeded;
 
-	};
+	},
+};

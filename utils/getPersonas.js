@@ -3,9 +3,8 @@ const mongoose = require('mongoose');
 const User = mongoose.model('users');
 
 
-module.exports.personasUtil =
-
-	async (userId) => {
+module.exports = {
+	getPersonas: async (userId) => {
 		let response = '```Your list of Personas: \n\n';
 		let count = 0;
 		await User.findOne({ id: userId })
@@ -18,8 +17,7 @@ module.exports.personasUtil =
 			})
 			.catch(err => console.log(err));
 
-
 		response += '\nYou have a total of ' + count + ' personas.```';
 		return response;
-
-	};
+	},
+};

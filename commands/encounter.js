@@ -1,19 +1,19 @@
 const Discord = require('discord.js');
-const { random } = require('../commands/random.js');
-const personas = require('../personas/personas.json');
+const { getRandomPersona } = require('../utils/getRandomPersona.js');
+const personas = require('../data/personas.json');
 require('../models/Server');
 const mongoose = require('mongoose');
 const Server = mongoose.model('servers');
 
 
 module.exports = {
-	randomEmbeded : async (serverId) => {
-		const persona = random();
+	generateEncounter : async (serverId) => {
+		const persona = getRandomPersona();
+
 		let photoIndex = persona;
 		photoIndex = photoIndex.split(' ').join('');
 
 		const metadata = personas[persona];
-
 
 		const personaEmbeded = new Discord.MessageEmbed()
 			.setColor('#0099ff')
