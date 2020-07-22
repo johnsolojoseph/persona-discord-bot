@@ -1,26 +1,14 @@
 const Discord = require('discord.js');
-const personas = require('../personas/personas.json');
-require('../models/Server');
-const mongoose = require('mongoose');
-const Server = mongoose.model('servers');
+const personas = require('../data/personas.json');
 
 
 module.exports = {
-	showPersonaInServer : async (serverId) => {
-		let persona = '';
-		await Server.findOne({ id: serverId })
-			.then((server) => {
-				if(server == null) {
-					return '```No one is in your server...```';
-				}
-				persona = server.persona;
-			})
-			.catch((err) => console.log(err));
-
-		if(persona == '') {
-			return '```No one is in your server...```';
+	showPersonaInfo : (message) => {
+		const arr = message.split(' ');
+		let persona = arr[1];
+		if(arr[2]) {
+			persona += ' ' + arr[2];
 		}
-
 		let photoIndex = persona;
 		photoIndex = photoIndex.split(' ').join('');
 
@@ -56,6 +44,5 @@ module.exports = {
 			.setTimestamp();
 
 		return personaEmbeded;
-
 	},
 };

@@ -1,7 +1,7 @@
 require('../models/User');
 const mongoose = require('mongoose');
 const User = mongoose.model('users');
-const { route } = require('../util/routeMessage.js');
+const { route } = require('../routes/routeMessage.js');
 
 module.exports = {
 	execute : async (message) => {
@@ -19,16 +19,18 @@ module.exports = {
 			else if (message.content.startsWith('p!')) {
 				let response = '';
 
-				response = route(message);
+				response = await route(message);
 
-				message.channel.send(response);
+				message.channel.send(response)
+					.catch(err => console.log(err));
 			}
 			else {
 				return;
 			}
 		}
 		catch {
-			message.channel.send('```The Velvet Room is having some technical difficulties```');
+			message.channel.send('```Server is having difficulties```')
+				.catch(err => console.log(err));
 		}
 
 

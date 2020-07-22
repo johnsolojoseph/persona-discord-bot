@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const personas = require('../personas/personas.json');
+const personas = require('../data/personas.json');
 require('../models/Server');
 const mongoose = require('mongoose');
 const Server = mongoose.model('servers');

@@ -9,12 +9,21 @@
 # ATK -> Attackers level
 # TRG -> Targets level
 # BASE ------v
-
-TODO: Implement function for damage, given enemy and player objects
 */
 
-module.exports = {
-	calculateDmg : ()=>{
-		return;
-	},
+const calcDmg = (user, enemy, isMagic) => {
+	let dmg = 0;
+
+	if (isMagic) {
+		dmg = (5 * (Math.sqrt(user.stats[1]) / enemy.stats[2]) * (user.level / enemy.level) + 6);
+	}
+	else {
+		dmg = (5 * (Math.sqrt(user.stats[0]) / enemy.stats[2]) * (user.level / enemy.level) + 6);
+	}
+
+	return dmg;
+};
+
+module.export = {
+	calcDmg,
 };
