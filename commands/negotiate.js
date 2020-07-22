@@ -1,4 +1,4 @@
-const personas = require('../personas/personas.json');
+const personas = require('../data/personas.json');
 require('../models/Server');
 const mongoose = require('mongoose');
 const User = mongoose.model('users');
@@ -6,9 +6,8 @@ const Server = mongoose.model('servers');
 const Discord = require('discord.js');
 
 
-module.exports.negotiateUtil =
-
-	async (serverId, userId, msg) => {
+module.exports = {
+	negotiate : async (serverId, userId, msg) => {
 		let persona = '';
 		await Server.findOne({ id: serverId })
 			.then((server) => {
@@ -62,9 +61,14 @@ module.exports.negotiateUtil =
 				.catch((err) => {console.log(err);});
 		}
 		else {
-			response += persona + ' didn\'t seem to like your answer \n\n';
-			response += 'Negotiation was unsuccessful.. Try again';
+			response += persona + ' didn\'t seem to like your answer. \n\n';
+			response += 'Negotiation was unsuccessful.. \n';
 		}
+
+		await Server.deleteOne({ id: serverId })
+			.catch((err) => console.log(err));
+
+		response += '\n' + persona + ' has left the server.';
 
 		let photoIndex = persona;
 		photoIndex = photoIndex.split(' ').join('');
@@ -79,4 +83,5 @@ module.exports.negotiateUtil =
 
 		return personaEmbeded;
 
-	};
+	},
+};
