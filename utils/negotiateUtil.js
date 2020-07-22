@@ -62,9 +62,14 @@ module.exports.negotiateUtil =
 				.catch((err) => {console.log(err);});
 		}
 		else {
-			response += persona + ' didn\'t seem to like your answer \n\n';
-			response += 'Negotiation was unsuccessful.. Try again';
+			response += persona + ' didn\'t seem to like your answer. \n\n';
+			response += 'Negotiation was unsuccessful.. \n';
 		}
+
+		await Server.deleteOne({ id: serverId })
+			.catch((err) => console.log(err));
+
+		response += '\n' + persona + ' has left the server.';
 
 		let photoIndex = persona;
 		photoIndex = photoIndex.split(' ').join('');
