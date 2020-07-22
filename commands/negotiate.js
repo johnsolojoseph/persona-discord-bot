@@ -6,9 +6,8 @@ const Server = mongoose.model('servers');
 const Discord = require('discord.js');
 
 
-module.exports.negotiateUtil =
-
-	async (serverId, userId, msg) => {
+module.exports = {
+	negotiate : async (serverId, userId, msg) => {
 		let persona = '';
 		await Server.findOne({ id: serverId })
 			.then((server) => {
@@ -84,4 +83,5 @@ module.exports.negotiateUtil =
 
 		return personaEmbeded;
 
-	};
+	},
+};

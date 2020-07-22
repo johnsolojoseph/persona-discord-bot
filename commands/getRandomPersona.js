@@ -1,9 +1,8 @@
 const personas = require('../personas/personas');
 
-
 module.exports = {
-	random: () => {
-		const index = Math.floor(Math.random() * Math.floor(Object.keys(personas).length));
+	getRandomPersona: () => {
+		const randIndex = Math.floor(Math.random() * Math.floor(Object.keys(personas).length));
 
 		const list = [];
 		let i = 0;
@@ -12,6 +11,6 @@ module.exports = {
 			i++;
 		}
 
-		return list[index];
+		return list[randIndex];
 	},
 };

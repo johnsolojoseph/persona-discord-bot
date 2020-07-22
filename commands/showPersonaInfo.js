@@ -3,7 +3,7 @@ const personas = require('../personas/personas.json');
 
 
 module.exports = {
-	infoEmbeded : (message) => {
+	showPersonaInfo : (message) => {
 		const arr = message.split(' ');
 		let persona = arr[1];
 		if(arr[2]) {

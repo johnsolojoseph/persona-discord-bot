@@ -10,7 +10,7 @@ const port = 3000;
 const TOKEN = process.env.TOKEN;
 const MONGO_URI = process.env.MONGO_URI;
 
-const { messageUtils } = require('./utils/messageUtils.js');
+const { execute } = require('./controllers/messageController');
 
 mongoose.connect(MONGO_URI, {
 	useNewUrlParser: true,
@@ -22,9 +22,7 @@ mongoose.connect(MONGO_URI, {
 bot.login(TOKEN);
 
 bot.on('message', message => {
-	messageUtils(message);
+	execute(message);
 });
-
-app.get('/', (req, res) => res.send('Hello World!'));
 
 app.listen(port, () => console.log(`The magic is happening at http://localhost:${port}`));
