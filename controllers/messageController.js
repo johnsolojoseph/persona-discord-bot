@@ -15,9 +15,13 @@ module.exports = {
 				});
 
 				await newUser.save();
+
+				const msg = '```We see you haven\t registered yet. We put your soul in the Velvet Room 👻```.';
+				message.channel.send(msg)
+					.catch(err => console.log(err));
 			}
 			else if (message.content.startsWith('p!')) {
-				let response = '';
+				let response = 'Nothing happened.';
 
 				response = await route(message);
 

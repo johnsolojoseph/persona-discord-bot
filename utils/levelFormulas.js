@@ -1,13 +1,16 @@
-const calcEnemyLevel = (userLevel) => {
-	let enemyLevel = Math.round(Math.random() * (userLevel + 5) + userLevel);
+module.exports = {
+	calcEnemyLevel : (userLevel) => {
+		if(userLevel > 99) {
+			userLevel = 99;
+		}
 
-	if(enemyLevel > 99) {
-		enemyLevel = 99;
-	}
+		let enemyLevel = Math.round((Math.random() * 5) + userLevel);
 
-	return enemyLevel;
+		if(enemyLevel > 99) {
+			enemyLevel = 99;
+		}
+
+		return enemyLevel;
+	},
 };
 
-module.export = {
-	calcEnemyLevel,
-};

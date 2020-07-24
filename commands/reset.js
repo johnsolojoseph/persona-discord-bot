@@ -5,8 +5,15 @@ const User = mongoose.model('users');
 
 module.exports = {
 	resetUserProgress : async (userId) => {
-		await User.updateOne({ id: userId }, { '$set': { 'personaList': [] } });
-		const response = '```Reset was successful. Try "p!personas" to see a cleared list.```';
+		await User.deleteOne({ id: userId });
+
+		const user = new User({
+			id: userId,
+		});
+
+		await user.save();
+
+		const response = '```Reset was successful!```';
 
 		return response;
 

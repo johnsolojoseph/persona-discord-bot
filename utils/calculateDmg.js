@@ -15,15 +15,17 @@ const calcDmg = (user, enemy, isMagic) => {
 	let dmg = 0;
 
 	if (isMagic) {
-		dmg = (5 * (Math.sqrt(user.stats[1]) / enemy.stats[2]) * (user.level / enemy.level) + 6);
+		dmg = (10 * (Math.sqrt(user.stats[1]) / enemy.stats[2]) + 6);
 	}
 	else {
-		dmg = (5 * (Math.sqrt(user.stats[0]) / enemy.stats[2]) * (user.level / enemy.level) + 6);
+		dmg = (10 * (Math.sqrt(user.stats[0]) / enemy.stats[2]) + 6);
 	}
 
-	return dmg;
+	dmg *= Math.random() * (1.5 - 0.95) + 0.95;
+
+	return Math.round(dmg);
 };
 
-module.export = {
+module.exports = {
 	calcDmg,
 };
